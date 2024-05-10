@@ -4,6 +4,6 @@ slug: /contact
 title: Get in touch
 ---
 
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+Feel free to reach to reach out to Bijan using the form below.<br>
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Just send him a message using the form below.

@@ -247,10 +247,15 @@ article img {
 
 .blog-post {
   .featured-image {
+    max-width: 100%;
+    height: auto;
     border-radius: 12px;
     display: block;
+    margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    max-height: 300px;
+    max-width: 300px;
   }
 }
 // Buttons
@@ -269,7 +274,7 @@ article img {
   transition: background 0.3s linear;
   &.-outline {
     color: var(--primary-color);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1px rgba(20, 15, 15, 0.6);
     background: #fff;
     &:hover {
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
