@@ -131,6 +131,11 @@ export const pageQuery = graphql`
         slug
         title
         description
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
       }
     }
   }
