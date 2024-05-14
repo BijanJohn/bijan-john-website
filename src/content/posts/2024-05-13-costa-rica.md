@@ -68,11 +68,6 @@ The reason I decided to go on the trip was because I knew Liz, who owns and oper
 
 <img src="/assets/bijan-and-liz.jpg" alt="image of Bijan and Liz"  />
 
-One of the best surprises was meeting my new friend Caitlin who lives at the retreat center with her mom Jane. This young woman is an herbalist, an experienced EFT expert, a chef who runs a catering company and a retreat coordinator. She is filled with so much wisdom and joy.
-[https://www.vitalnectarholism.com/](https://www.vitalnectarholism.com/)
-
-<img src="/assets/bijan-and-caitlin.jpg" alt="image of Bijan and Caitlin"  />
-
 # Fruit
 ### *fruta*
 
