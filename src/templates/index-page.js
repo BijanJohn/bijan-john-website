@@ -4,22 +4,10 @@ import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 import {
-  RiFacebookBoxFill,
-  RiTwitterFill,
   RiLinkedinBoxFill,
-  RiYoutubeFill,
-  RiInstagramFill,
-  RiRssFill,
   RiGithubFill,
-  RiTelegramFill,
-  RiPinterestFill,
-  RiSnapchatFill,
-  RiSkypeFill,
-  RiDribbbleFill,
   RiMediumFill,
-  RiBehanceFill,
 } from "react-icons/ri"
-import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"

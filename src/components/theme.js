@@ -10,7 +10,7 @@ const Theme = () => {
       <button
         onClick={e => {
           setColorMode(colorMode === "default" ? "dark" : "default")
-        }}
+        }}aria-label="Click me"
       >
         <div sx={themeStyles.modeIcons}>
           <div>{colorMode === "default" ? <FiMoon /> : <FiSun />}</div>
