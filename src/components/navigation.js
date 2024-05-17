@@ -19,6 +19,10 @@ const MenuItems = [
     title: "Blog",
   },
   {
+    path: "/websites",
+    title: "Websites",
+  },
+  {
     path: "/contact",
     title: "Contact",
   },
