@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.3] - 2024-05-23
+### Added
+- Blog post about light phone
+
 ## [2.0.2] - 2024-05-17
 ### Added
 - Menu item of "Websites" to showcase list of websites I maintain
+- Fixed a few warnings that were showing up on build
 
 ## [2.0.1] - 2024-05-13
 ### Added
