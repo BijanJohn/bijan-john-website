@@ -11,7 +11,7 @@
     X-Frame-Options = "SAMEORIGIN"
 
 [[plugins]]
-  package = "@netlify/plugin-gatsby"
+  package = "@netlify/plugin-gatsby",
   package = "@netlify/plugin-inline-cache"
     prune_dev_dependencies = true # Clean up dev dependencies
     command = "npm install --force && npm run build" # Add --force flag to npm install command
