@@ -11,6 +11,7 @@ import {
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
+import SubscribeForm from "../components/subscribe-form"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -140,6 +141,11 @@ const HomePage = ({ data }) => {
           ) : (
             ""
           )}
+        </div>
+        <div>
+          <aside>
+            <SubscribeForm />
+          </aside>
         </div>
       </div>
       <BlogListHome data={posts} />
