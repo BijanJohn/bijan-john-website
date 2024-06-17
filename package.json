@@ -24,7 +24,6 @@
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
     "gatsby": "^4.7.1",
-    "gatsby-plugin-feed": "^5.13.1",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
