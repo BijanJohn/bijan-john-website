@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.4] - 2024-06-22
+### Changed
+- Removed Websites from tabs up top and moved them to the About page.
+
+### Added
+- Added a page about samples for me to track the cool samples I discover from digging
+
 ## [2.0.3] - 2024-05-23
 ### Added
 - Blog post about light phone

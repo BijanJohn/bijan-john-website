@@ -12,3 +12,11 @@ He has worked as a Site Reliability Engineer and has spent much of 2023 and 2024
 
 You can reach him via email at bijan@bijanrahnamai.com<br>
 He is not on Social Media.
+
+These are a few other websites Bijan maintains.
+
+# <a href="https://www.austinopenmicpoetry.com" target="_blank">austinopenmicpoetry.com</a>
+
+# <a href="https://myfrienddoug.com/" target="_blank">myfrienddoug.com</a>
+
+# <a href="https://visionsofpaul.com/" target="_blank">visionsofpaul.com</a>
