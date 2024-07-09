@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.5] - 2024-07-09
+### Added
+- Added back YouTube Channel to homepage via icon
+
 ## [2.0.4] - 2024-06-22
 ### Changed
 - Removed Websites from tabs up top and moved them to the About page.

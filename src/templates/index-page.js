@@ -6,6 +6,7 @@ import { RiArrowRightSLine } from "react-icons/ri"
 import {
   RiLinkedinBoxFill,
   RiGithubFill,
+  RiYoutubeFill,
   RiMediumFill,
 } from "react-icons/ri"
 
@@ -71,6 +72,13 @@ const HomePage = ({ data }) => {
         {icons.icon === "linkedin" ? (
           <a href={icons.url} target="_blank" aria-label="link to Linkedin" rel="noopener noreferrer">
             <RiLinkedinBoxFill alt="Linkedin icon"/>
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "youtube" ? (
+          <a href={icons.url} target="_blank" aria-label="link to Youtube" rel="noopener noreferrer">
+            <RiYoutubeFill alt="Youtube icon" />
           </a>
         ) : (
           ""
