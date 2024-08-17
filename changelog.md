@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.6] - 2024-08-17
+### Added
+- Added high quality image of shredded Bijan
+
 ## [2.0.5] - 2024-07-09
 ### Added
 - Added back YouTube Channel to homepage via icon
