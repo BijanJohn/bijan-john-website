@@ -7,6 +7,7 @@ import {
   RiLinkedinBoxFill,
   RiGithubFill,
   RiYoutubeFill,
+  RiInstagramFill,
   RiMediumFill,
 } from "react-icons/ri"
 
@@ -79,6 +80,13 @@ const HomePage = ({ data }) => {
         {icons.icon === "youtube" ? (
           <a href={icons.url} target="_blank" aria-label="link to Youtube" rel="noopener noreferrer">
             <RiYoutubeFill alt="Youtube icon" />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "instagram" ? (
+          <a href={icons.url} target="_blank" aria-label="link to Instagram" rel="noopener noreferrer">
+            <RiInstagramFill alt="Instagram icon" />
           </a>
         ) : (
           ""

@@ -1,8 +1,8 @@
 ---
 template: index-page
 slug: /
-title: Bijan
-tagline: Engineer and Artist
+title: Bijan the Love poet
+tagline: Artist
 featuredImage: /assets/bijan-in-studio.png
 cta:
   ctaText: Know more

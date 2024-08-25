@@ -6,9 +6,9 @@ title: Samples found from digging in the crates
 
 <img src="/assets/vinyl/vinyl-records-collection.jpg" alt="massive vinyl record collection" width="500" style="display: block; margin: 0 auto;" />
 
-I've been collecting vinyl records over the years and as a Hip Hop fan one of the greatest experiences in listening to old music is to find the original samples/cuts that were used in Hip Hop by the original artist. You might be listening to the radio, or a streaming service or a vinyl record and suddenly understand where an artist took their drum break from, or a bass line or some slice of music from the 70s.
+I've been collecting vinyl records over the years and as a Hip Hop head one of the greatest experiences in listening to old music is to find the original samples/cuts that were used in Hip Hop by the original artist. You might be listening to the radio, or a streaming service or a vinyl record and suddenly understand where an artist took their drum break from, or a bass line or some slice of music from the 70s.
 
-There is a great website called <a href="https://whosampled.com/" target="_blank">whosampled.com</a> where you can search out specific samples and who used what but this page is dedicated to recording some of the personal discoveries I've found when listening to vinyl and discovering the origins of music.
+There is a great website called <a href="https://whosampled.com/" target="_blank">whosampled.com</a> where you can search out specific samples and who used what. This page is dedicated to recording some of the personal discoveries I've found when listening to vinyl and discovering the origins of music.
 
 # 2024-06-22
 
