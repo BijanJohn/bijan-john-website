@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-Former senior software engineer, current artist, future yogi.
+Artist, Engineer, Yogi
