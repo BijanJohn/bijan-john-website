@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.9] - 2024-09-05
+### Added
+- Added blog post of Emotions Part 3
+- Added back link for TikTok
+
 ## [2.0.8] - 2024-09-01
 ### Added
 - Added blog post of Emotions Part 2
