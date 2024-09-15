@@ -6,10 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.10] - 2024-09-15
+### Added
+- Added blog post about Writing
 
 ## [2.0.10] - 2024-09-08
 ### Added
-- Added blog post about Fasting
+- Added blog post about Fasting (unreleased)
 - Added gatsby-remark-embed-video
 
 ## [2.0.9] - 2024-09-05
