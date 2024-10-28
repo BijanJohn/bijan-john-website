@@ -13,3 +13,7 @@ Since 2023 he has shifted to developing skills as an artist, reading books, prac
 <img src="/assets/artist-bijan.jpg" alt="bijan writing in costa rica" width="500" style="display: block; margin: 0 auto;" />
 
 You can reach him via email at bijan@bijanrahnamai.com<br>
+
+Some other websites he maintaines are the following:<br>
+
+[recordrefuge.com](https://recordrefuge.com/)

@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Bijan the Love poet
 tagline: Artist
-featuredImage: /assets/bijan-in-studio.png
+featuredImage: /assets/magician-bijan3.jpg
 cta:
   ctaText: Know more
   ctaLink: /about

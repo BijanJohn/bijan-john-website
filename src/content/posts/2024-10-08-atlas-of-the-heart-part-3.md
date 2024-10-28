@@ -17,7 +17,7 @@ I received my first bootcamp certificate of completion last spring and am now wo
 
 <img src="/assets/persian-bootcamp/persian-bootcamp-1.jpeg" alt="image of Persian Language Bootcamp Certificate" width="500" style="display: block; margin: 0 auto;" />
 
-Something I have come to understand in learning languages and writing poetry is that our experience of life itself is determined by our usage of language and the words we choose. Certain languages and cultures experience life differently and express our experiences differently, simply by having different expressions of words. Here is what I have found around the differences between Perisan and English.<br>
+Something I have come to understand in learning languages and writing poetry is that our experience of life itself is determined by our usage of language and the words we choose. Certain languages and cultures experience life differently and express our experiences differently, simply by having different expressions of words. Here is what I have found around the differences between Persian and English.<br>
 
 
 ## Vocabulary and Emotional Nuances
