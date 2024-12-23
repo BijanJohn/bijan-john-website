@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+import { useState } from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 const SubscribeForm = () => {
@@ -15,8 +17,30 @@ const SubscribeForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Subscribe to receive updates </label>
+    <form 
+      onSubmit={handleSubmit}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1rem',
+        padding: '1.5rem',
+        backgroundColor: 'background',
+        borderRadius: '8px',
+        boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+        maxWidth: '400px',
+        margin: '2rem auto'
+      }}
+    >
+      <label 
+        htmlFor="email"
+        sx={{
+          fontSize: '1.1rem',
+          fontWeight: 'bold',
+          color: 'text'
+        }}
+      >
+        Subscribe to receive updates
+      </label>
       <input
         type="email"
         id="email"
@@ -25,9 +49,41 @@ const SubscribeForm = () => {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Enter your email"
         required
+        sx={{
+          padding: '0.75rem',
+          border: '1px solid',
+          borderColor: 'primary',
+          borderRadius: '4px',
+          fontSize: '1rem',
+          '&:focus': {
+            outline: 'none',
+            borderColor: 'primary',
+            boxShadow: '0 0 0 2px rgba(162, 70, 108, 0.2)'
+          }
+        }}
       />
-      <button type="submit">Subscribe</button>
-      {message && <div dangerouslySetInnerHTML={{ __html: message }} />}
+      <button 
+        type="submit"
+        sx={{
+          variant: 'variants.button',
+          cursor: 'pointer',
+          width: '100%'
+        }}
+      >
+        Subscribe
+      </button>
+      {message && (
+        <div 
+          dangerouslySetInnerHTML={{ __html: message }}
+          sx={{
+            marginTop: '1rem',
+            padding: '0.75rem',
+            borderRadius: '4px',
+            backgroundColor: message.includes('success') ? 'rgba(0, 200, 0, 0.1)' : 'rgba(200, 0, 0, 0.1)',
+            color: message.includes('success') ? 'green' : 'red'
+          }}
+        />
+      )}
     </form>
   );
 };
