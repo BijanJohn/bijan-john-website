@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
+import React from 'react';
 import { useState } from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.1.2] - 2024-12-24
+### Added
+- Fix import error on subscribe form
+
 ## [2.1.1] - 2024-12-24
 ### Added
 - Added first name and last name fields to Mailchimp subscription form
