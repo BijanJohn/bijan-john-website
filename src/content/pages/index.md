@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Bijan the Love poet
+title: Bijan Rahnamai
 tagline: Artist
 featuredImage: /assets/profile/temple-bijan.jpeg
 cta:
@@ -10,4 +10,4 @@ cta:
 ---
 
 Yoga Teacher, Poet, Artist, Software Engineer
-
+Blog posts about travel, learning, books, life.
