@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
+import React from 'react';
 import { useState } from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
@@ -9,6 +10,8 @@ const SubscribeForm = () => {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
+  // Note: FNAME and LNAME field names must exactly match Mailchimp's merge field tags.
+  // If you modify these field names, ensure they match your Mailchimp audience field configuration.
   const handleSubmit = async (e) => {
     e.preventDefault();
     const result = await addToMailchimp(email, {
