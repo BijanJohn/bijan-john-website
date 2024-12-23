@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.1.0] - 2024-12-24
+### Added
+- Re-enabled Mailchimp subscribe form with improved styling
+- Added RSS feed functionality at /rss.xml for blog post updates
+
 ## [2.0.14] - 2024-12-24
 ### Added
 - new profile picture and updated a bit of text.

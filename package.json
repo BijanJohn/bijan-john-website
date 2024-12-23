@@ -1,7 +1,7 @@
 {
   "name": "@stackrole/gatsby-starter-foundation",
   "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Stackrole <stackrole@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -25,6 +25,7 @@
     "@theme-ui/color": "^0.6.0",
     "@theme-ui/css": "^0.6.0",
     "gatsby": "^4.7.1",
+    "gatsby-plugin-feed": "^4.25.0",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
