@@ -5,20 +5,36 @@ import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 const SubscribeForm = () => {
   const [email, setEmail] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const result = await addToMailchimp(email);
+    const result = await addToMailchimp(email, {
+      FNAME: firstName,
+      LNAME: lastName
+    });
     setMessage(result.msg);
     if (result.result === 'success') {
       setEmail('');
+      setFirstName('');
+      setLastName('');
     }
   };
 
   return (
-    <form 
-      onSubmit={handleSubmit}
+    <>
+      <p sx={{
+        textAlign: 'center',
+        fontSize: '1.2rem',
+        marginBottom: '1rem',
+        color: 'text'
+      }}>
+        Subscribe to receive new blog posts
+      </p>
+      <form 
+        onSubmit={handleSubmit}
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -32,6 +48,68 @@ const SubscribeForm = () => {
       }}
     >
       <label 
+        htmlFor="firstName"
+        sx={{
+          fontSize: '1.1rem',
+          fontWeight: 'bold',
+          color: 'text'
+        }}
+      >
+        First Name
+      </label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        value={firstName}
+        onChange={(e) => setFirstName(e.target.value)}
+        placeholder="Enter your first name"
+        required
+        sx={{
+          padding: '0.75rem',
+          border: '1px solid',
+          borderColor: 'primary',
+          borderRadius: '4px',
+          fontSize: '1rem',
+          '&:focus': {
+            outline: 'none',
+            borderColor: 'primary',
+            boxShadow: '0 0 0 2px rgba(162, 70, 108, 0.2)'
+          }
+        }}
+      />
+      <label 
+        htmlFor="lastName"
+        sx={{
+          fontSize: '1.1rem',
+          fontWeight: 'bold',
+          color: 'text'
+        }}
+      >
+        Last Name
+      </label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        value={lastName}
+        onChange={(e) => setLastName(e.target.value)}
+        placeholder="Enter your last name"
+        required
+        sx={{
+          padding: '0.75rem',
+          border: '1px solid',
+          borderColor: 'primary',
+          borderRadius: '4px',
+          fontSize: '1rem',
+          '&:focus': {
+            outline: 'none',
+            borderColor: 'primary',
+            boxShadow: '0 0 0 2px rgba(162, 70, 108, 0.2)'
+          }
+        }}
+      />
+      <label 
         htmlFor="email"
         sx={{
           fontSize: '1.1rem',
@@ -39,7 +117,7 @@ const SubscribeForm = () => {
           color: 'text'
         }}
       >
-        Subscribe to receive updates
+        Email Address
       </label>
       <input
         type="email"
@@ -85,6 +163,7 @@ const SubscribeForm = () => {
         />
       )}
     </form>
+    </>
   );
 };
 
