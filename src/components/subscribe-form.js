@@ -24,8 +24,17 @@ const SubscribeForm = () => {
   };
 
   return (
-    <form 
-      onSubmit={handleSubmit}
+    <>
+      <p sx={{
+        textAlign: 'center',
+        fontSize: '1.2rem',
+        marginBottom: '1rem',
+        color: 'text'
+      }}>
+        Subscribe to receive new blog posts
+      </p>
+      <form 
+        onSubmit={handleSubmit}
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -154,6 +163,7 @@ const SubscribeForm = () => {
         />
       )}
     </form>
+    </>
   );
 };
 
