@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.0] - 2024-12-24
+### Added
+- Configured GitHub authentication for Netlify CMS admin panel
+- Added identity and gateway URLs for improved CMS access
+
 ## [2.1.2] - 2024-12-24
 ### Added
 - Fix import error on subscribe form
