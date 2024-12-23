@@ -8,6 +8,11 @@ import Navigation from "./navigation"
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
+
+// Add Netlify Identity Widget
+if (typeof window !== "undefined") {
+  require("netlify-identity-widget")
+}
 import Theme from "../components/theme"
 import Search from "../components/search"
 
