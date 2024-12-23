@@ -139,5 +139,58 @@ module.exports = {
         endpoint: "https://bijanrahnamai.us22.list-manage.com/subscribe/post?u=f6c42bfc62027455624cb7855&amp;id=9a50b5b2fe&amp;f_id=00becee1f0",
       },
     },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.frontmatter.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.frontmatter.slug,
+                }
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { template: { eq: "blog-post" } } }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      frontmatter {
+                        title
+                        date
+                        slug
+                        template
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Bijan John's Blog RSS Feed",
+          },
+        ],
+      },
+    },
   ],
 }
