@@ -3,10 +3,11 @@ template: index-page
 slug: /
 title: Bijan the Love poet
 tagline: Artist
-featuredImage: /assets/magician-bijan3.jpg
+featuredImage: /assets/profile/temple-bijan.jpeg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
 
-Artist, Engineer, Yogi
+Yoga Teacher, Poet, Artist, Software Engineer
+

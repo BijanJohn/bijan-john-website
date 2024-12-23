@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.14] - 2024-12-24
+### Added
+- new profile picture and updated a bit of text.
+
 ## [2.0.13] - 2024-11-06
 ### Added
 - Link to new site I'm managing [austinpoetryhistory.com](https://austinpoetryhistory.com/)
