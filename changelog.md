@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.3] - 2024-12-24
+### Fixed
+- Added CORS headers for Git Gateway endpoints to fix authentication issues
+- Updated headers configuration to allow proper communication with Git Gateway service
+
 ## [2.2.2] - 2024-12-24
 ### Fixed
 - Added CORS headers for Netlify Identity service to fix authentication issues

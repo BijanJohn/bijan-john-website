@@ -130,6 +130,11 @@ module.exports = {
             "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS",
             "Access-Control-Allow-Headers: Content-Type, Authorization"
           ],
+          "/.netlify/git/*": [
+            "Access-Control-Allow-Origin: *",
+            "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers: Content-Type, Authorization"
+          ],
           "/admin/*": [
             "Access-Control-Allow-Origin: *",
             "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS",
