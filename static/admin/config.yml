@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
   auth_scope: repo
   identity_url: "https://bijanrahnamai.com/.netlify/identity"
   gateway_url: "https://bijanrahnamai.com/.netlify/git/github"
