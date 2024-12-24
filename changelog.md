@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.4] - 2024-12-24
+### Fixed
+- Simplified CORS configuration to allow all paths for bijanrahnamai.com
+- Added credentials support and additional headers for cross-origin requests
+- Improved security by removing wildcard CORS origins
+
 ## [2.2.3] - 2024-12-24
 ### Fixed
 - Added CORS headers for Git Gateway endpoints to fix authentication issues
