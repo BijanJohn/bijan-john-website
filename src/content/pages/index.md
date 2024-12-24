@@ -9,5 +9,6 @@ cta:
   ctaLink: /about
 ---
 
-Yoga Teacher, Poet, Artist, Software Engineer<br>
+Yoga Teacher, Poet, Artist and Software Engineer<br>
+<br>
 Blog posts about travel, learning, books, life.
