@@ -124,7 +124,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
-        headers: {},
+        headers: {
+          "/.netlify/identity/*": [
+            "Access-Control-Allow-Origin: *",
+            "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers: Content-Type, Authorization"
+          ],
+          "/admin/*": [
+            "Access-Control-Allow-Origin: *",
+            "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers: Content-Type, Authorization"
+          ]
+        },
         allPageHeaders: [],
         mergeSecurityHeaders: true,
         mergeLinkHeaders: true,

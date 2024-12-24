@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.2] - 2024-12-24
+### Fixed
+- Added CORS headers for Netlify Identity service to fix authentication issues
+- Updated headers configuration to allow proper communication with admin panel
+
 ## [2.2.1] - 2024-12-24
 ### Added
 - Added Netlify Identity widget for improved CMS authentication
