@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.1] - 2024-12-24
+### Added
+- Added Netlify Identity widget for improved CMS authentication
+- Created admin/index.html with proper Identity configuration
+
 ## [2.2.0] - 2024-12-24
 ### Added
 - Configured GitHub authentication for Netlify CMS admin panel
