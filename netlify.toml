@@ -10,5 +10,29 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
 
+[[headers]]
+  for = "/.netlify/git/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://bijanrahnamai.com"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Access-Control-Allow-Credentials = "true"
+
+[[headers]]
+  for = "/.netlify/identity/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://bijanrahnamai.com"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Access-Control-Allow-Credentials = "true"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://bijanrahnamai.com"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Access-Control-Allow-Credentials = "true"
+
 [[plugins]]
   package = "@netlify/plugin-gatsby"
