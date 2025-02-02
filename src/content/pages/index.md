@@ -1,14 +1,15 @@
 ---
 template: index-page
 slug: /
-title: Bijan Rahnamai
-tagline: Artist
-featuredImage: /assets/profile/temple-bijan.jpeg
+title: Bijan
+tagline: Be kind, we are all idiots
+featuredImage: /assets/artist-bijan.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
 
-Yoga Teacher, Poet, Artist and Software Engineer<br>
+poet<br>
+yoga teacher<br>
+artist<br>
 <br>
-Blog posts about travel, learning, books, life.

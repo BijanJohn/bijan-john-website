@@ -9,12 +9,13 @@ import Navigation from "./navigation"
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 
+import Theme from "../components/theme"
+import Search from "../components/search"
+
 // Add Netlify Identity Widget
 if (typeof window !== "undefined") {
   require("netlify-identity-widget")
 }
-import Theme from "../components/theme"
-import Search from "../components/search"
 
 const query = graphql`
   query LayoutQuery {

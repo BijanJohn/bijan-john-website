@@ -158,11 +158,11 @@ const HomePage = ({ data }) => {
             ""
           )}
         </div>
-        <div>
+        {/* <div>
           <aside>
             <SubscribeForm />
           </aside>
-        </div>
+        </div> */}
       </div>
       <BlogListHome data={posts} />
     </Layout>
