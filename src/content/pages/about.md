@@ -21,5 +21,3 @@ Some other websites he maintaines are the following:<br>
 [austinpoetryhistory.com](https://austinpoetryhistory.com/)
 
 [austinopenmic.com](https://austinopenmic.com/)
-
-[austinpoetlaureate.com](https://austinpoetlaureate.com/)
