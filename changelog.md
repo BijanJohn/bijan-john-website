@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.5] - 2025-02-11
+### Added
+- Added post about Iranian American Apologist
+
 ## [2.2.4] - 2024-12-24
 ### Fixed
 - Simplified CORS configuration to allow all paths for bijanrahnamai.com

@@ -43,7 +43,7 @@ we can break our prisons today<br>
 A dear friend of mine asked me in the last few months to write some of my story as a first generation Persian American.
 As the country I was born in has become increasingly anti immigrant and as it keeps me up at night I realized it is time to write.
 
-### neither here, nor thereå
+### neither here, nor there
 
 Being born in a blue dot city in the center of Texas surrounded by an ocean of red conservative ideology I was shielded by the progressiveness of the city I lived in while experiencing pockets of unwelcoming. Unwelcoming was felt most sharply when I went to school in west Texas, San Angelo, through the occasional bigoted racist passerby but ultimately I had a decently integrated experience. One example of such bigotry was when working at a cinema popcorn register stand at the Gateway theatre in central Austin when a young man who had come back from Iraq very casually said in front of his army friends "I just got back from the middle east shooting sand n**gers and towel heads, I will take a large popcorn". He was going to see the film 300 to watch more violence.
 
