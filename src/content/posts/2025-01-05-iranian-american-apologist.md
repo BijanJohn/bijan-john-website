@@ -1,7 +1,7 @@
 ---
 title: Iranian American Apologist
 template: blog-post
-date: 2025-01-05
+date: 2025-01-11
 slug: /iranian-american-apologist
 featuredImage: /assets/iranian-american-flag.jpg
 description: image of Iranian and American Flag
@@ -43,9 +43,9 @@ we can break our prisons today<br>
 A dear friend of mine asked me in the last few months to write some of my story as a first generation Persian American.
 As the country I was born in has become increasingly anti immigrant and as it keeps me up at night I realized it is time to write.
 
-### neither here, nor there
+### neither here, nor thereå
 
-Being born in a blue dot city in the center of Texas surrounded by an ocean of red conservative ideology I was shielded by the progressiveness of the city I lived in while experiencing pockets of unwelcoming; when I went to school in west texas San Angelo, through the occasional bigoted racist passerby but ultimately I had a decently integrated experience. One example of such bigotry was when working at a cinema popcorn register a young man who had come back from Iraq very casually said in front of his army friends "I just got back from the middle east shooting sand n**gers and towel heads, I will take a large popcorn". He was going to see the film 300 to watch more violence.
+Being born in a blue dot city in the center of Texas surrounded by an ocean of red conservative ideology I was shielded by the progressiveness of the city I lived in while experiencing pockets of unwelcoming. Unwelcoming was felt most sharply when I went to school in west Texas, San Angelo, through the occasional bigoted racist passerby but ultimately I had a decently integrated experience. One example of such bigotry was when working at a cinema popcorn register stand at the Gateway theatre in central Austin when a young man who had come back from Iraq very casually said in front of his army friends "I just got back from the middle east shooting sand n**gers and towel heads, I will take a large popcorn". He was going to see the film 300 to watch more violence.
 
 In middle school I watched the twin towers be hit by planes in my school band hall room on the televisions as confused as everyone.<br>
 The high school I attended was at the time one of the "best" in the country in regards to academic outcomes.<br>
@@ -54,7 +54,7 @@ In college the Occupy Wall Street movement happened and it connected me to other
 
 ### What does America have to apologize for?
 
-The best single example I can share is from the author and academic Stephen Kinzer's book <br>
+The best single example I can share is from the author and academic Stephen Kinzer in his book <br>
 ["Overthrow: America's Century of Regime Change from Hawaii to Iraq](https://en.wikipedia.org/wiki/Overthrow_(book))
 
 He points out economic imperialism overthrows driven by American business interests, such as in Hawaii (1893) and Nicaragua (1910).
@@ -71,7 +71,7 @@ These overthrows are the shadows of American history which sadly most American's
 
 My father at a young age told me to use Caucasian for ethnicity questions on tests and forms in school. He said that the Iranians were the original Caucasions (the Caucus mountains were actually in Iran) and I know he wanted me to fit in and not be a target; a central message I was raised with similar to many Iranians. During the Iranian Hostage Crisis many Iranians began referring to themselves as Persians for more than simply pride of their heritage but for the additional safety from bigots.
 
-Recently while on a trip to Thailand and running through the streets of Bangkok one morning a Thai man yelled out at me "black n***ger", he likely had never seen a big haired Iranian American man of large stature like myself. I hadn't ever considered myself black despite loving black culture and hip hop. I am neither black nor white, neither Iranian nor American. I am a mix between worlds. When I have traveled to Iran it was very evident to me that I was considered a tourist and potentially a spy. Here in American today just like for most immigrants we are being told by economic and political leaders that this America is only for a certain color and background.
+Recently while on a trip to Thailand and running through the streets of Bangkok one morning a Thai man yelled out at me "black n***ger", he likely had never seen a big haired Iranian American man of large stature like myself. I hadn't ever considered myself black despite loving black culture and hip hop. I am neither black nor white, neither Iranian nor American. I am a mix between worlds. When I have traveled to Iran it was very evident to me that I was considered a tourist and potentially a spy. Here in America today just like for most immigrants we are being told by economic and political leaders that this America is only for a certain color and background.
 
 ### rap music
 
@@ -100,8 +100,12 @@ We live in a time where everything has become fast, naracsisstic and addictive.<
 Doing things slowly, with humility and in nourishing ways that heal is more important than ever.<br>
 Immigrants built this country and will continue to build this place.<br>
 Celebrating their voices and cultures as unqiue colorful contributions to the rich tapestry of American fabric is where we should place our attention on the solutions.<br>
-When we embrace our distint differences in culture we can see the similirities in our humanity, of that which we all wish for in a good life.<br>
+When we embrace our distinct differences in culture we can see the similiarties in our humanity, of that which we all wish for in a good life.<br>
 
-### bani adam
+### protest
 
-poem recording
+This upcoming president's day lets meet at the Texas State Capitol to protest the state of our political system which has been hijacked by billionaires and a tyrant false king who are running havoc of our society in more ways than we can articulate properly.<br>
+I don't expect protest to be much of an effective tool for change, but at the very least it can be a catharsis to the malaise we are all feeling from the deluge of unconstitutional actions which we are inundated with daily.<br>
+At the very most it can assure us that we are not alone, that we can unite, that we can connect and form solutions by working together as we all navigate these dark and difficult circumstances we all find ourselves in.<br>
+
+<img src="/assets/protest-trump.jpg" alt="image of Protest Trump" width="500" style="display: block; margin: 0 auto;" />
