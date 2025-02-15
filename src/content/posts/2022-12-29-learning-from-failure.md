@@ -4,10 +4,10 @@ title: Learning from Failure
 slug: /learning-from-failure
 date: 2022-12-29
 description: Post about passing AWS DevOps Professional Exam
-featuredImage: /assets/AWS-Certified-DevOps-Engineer-Professional_badge.png
+featuredImage: /assets/aws-cert.png
 ---
 
-<img src="/assets/AWS-Certified-DevOps-Engineer-Professional_badge.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/aws-cert.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
 
 
 ## **Failure is just a stepping stone to success**
