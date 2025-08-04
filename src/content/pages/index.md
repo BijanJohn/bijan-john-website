@@ -2,14 +2,14 @@
 template: index-page
 slug: /
 title: Bijan
-tagline: Be kind, we are all idiots
+tagline: Love is all that is real
 featuredImage: /assets/artist-bijan.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
 
-poet<br>
+software engineer<br>
+polyglot<br>
 yoga teacher<br>
-artist<br>
-<br>
+poet<br>

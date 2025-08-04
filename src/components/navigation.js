@@ -18,10 +18,10 @@ const MenuItems = [
     path: "/blog",
     title: "Blog",
   },
-  {
-    path: "/samples",
-    title: "Samples",
-  },
+  // {
+  //   path: "/samples",
+  //   title: "Samples",
+  // },
   // {
   //   path: "/contact",
   //   title: "Contact",
