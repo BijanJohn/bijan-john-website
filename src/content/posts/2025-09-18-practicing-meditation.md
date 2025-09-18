@@ -49,9 +49,9 @@ Fortuantely there are actual subtle techniques that can help us train the mind, 
 ## Brahmavihara Arama
 ### Bali's largest Buddhist monastery
 
-<video autoplay loop muted playsinline preload="none" poster="/videos/temple-clip.jpg" style="max-width:50%;display:block;margin:0 auto;">
-  <source src="/videos/temple-clip.webm" type="video/webm" />
-  <source src="/videos/temple-clip.mp4" type="video/mp4" />
+<video autoplay loop muted playsinline preload="none" poster="/videos/temple-slow-clip.jpg" style="max-width:50%;display:block;margin:0 auto;">
+  <source src="/videos/temple-slow-clip.webm" type="video/webm" />
+  <source src="/videos/temple-slow-clip.mp4" type="video/mp4" />
 </video>
 
 I had known about Alyona and Marie's meditation retreat in Bali before I made the move so it was on my mind to attend one of the trainings when I got a chance. This past August I attended my first Vipassana meditation retreat with these incredible instructors and it was a powerful experience that awakened inside me something profound.
