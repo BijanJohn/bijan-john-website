@@ -4,11 +4,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- [ ] Write a blog post about Yoga Teacher Training in Thailand
+- [ ] Write a blog post about Yoga Teacher Training in Thailand, mid November 2024 anniversary.
+- [ ] Write a blog post about Potato Diet experience "September 7th Potatoe Diet" videos
+- [ ] Write a blog post about "A Life Beyond Boundaries" once finished
+- [ ] Write a blog post about "The Examined Life" once finished
+- [ ] When ready to come off of TRT, write about it and also do a YT blog series around this topic (before, during and after); this can be a way of being of service to share with others.
+- [ ] Fasting experiences and what they are like; video recordings and testimony.
+- [ ] Write a blog post about the benefits of legs up the wall. Maybe a YT video as well/ IG video.
+- [ ] Write a blog about the book "Becoming Fluent" by Richard Roberts, Roger Kreuz about useful methods.
 
 ## [Released]
 
-## [2.2.7] - 2025-09-18
+
+## [2.2.10] - 2025-10-02
+### Added 
+- Added post about Polyglot Memoir # To Be Released
+
+## [2.2.9] - 2025-09-28
+### Added 
+- Added post about language learning strategies # To Be Released
+
+## [2.2.8] - 2025-09-21
+### Added / this will be published on the 21st
+- Added post about Learning Languages
+- Small updates to "About Me" page
+
+## [2.2.7] - 2025-09-14
 ### Added
 - Added post about meditation
 - added new component to share videos/gifs + script

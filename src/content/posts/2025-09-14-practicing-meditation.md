@@ -1,7 +1,7 @@
 ---
 title: Practicing Meditation
 template: blog-post
-date: 2025-09-18
+date: 2025-09-14
 slug: /practicing-meditation
 featuredImage: /assets/meditation/brahmavihara-arama.jpg
 description: image of Brahmavihara Arama
