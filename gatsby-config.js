@@ -156,6 +156,7 @@ module.exports = {
                 title
                 description
                 siteUrl
+                site_url: siteUrl
               }
             }
           }
@@ -194,7 +195,9 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Bijan John's Blog RSS Feed",
+            title: "Bijan's Blog RSS Feed",
+            feed_url: "https://www.bijanrahnamai.com/rss.xml",
+            site_url: "https://www.bijanrahnamai.com",
           },
         ],
       },
