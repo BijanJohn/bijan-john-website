@@ -15,14 +15,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.2.10] - 2025-10-06
+### Added 
+- Added post about Polyglot Memoir # To Be Released
+- updates to Becoming Fluent
 
 ## [2.2.10] - 2025-10-02
 ### Added 
 - Added post about Polyglot Memoir # To Be Released
+- updates to Becoming Fluent
 
 ## [2.2.9] - 2025-09-28
 ### Added 
-- Added post about language learning strategies # To Be Released
+- Added post about Becoming Fluent # To Be Released
 
 ## [2.2.8] - 2025-09-21
 ### Added / this will be published on the 21st
