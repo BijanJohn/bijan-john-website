@@ -5,7 +5,7 @@ title: Bijan
 tagline: Love is all that is real
 featuredImage: /assets/artist-bijan.jpg
 cta:
-  ctaText: Know more
+  ctaText: About me
   ctaLink: /about
 ---
 

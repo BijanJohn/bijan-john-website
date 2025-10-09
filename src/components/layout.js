@@ -11,6 +11,8 @@ import Footer from "./footer"
 
 import Theme from "../components/theme"
 import Search from "../components/search"
+import SubscribeForm from "../components/subscribe-form"
+
 
 // Add Netlify Identity Widget
 if (typeof window !== "undefined") {

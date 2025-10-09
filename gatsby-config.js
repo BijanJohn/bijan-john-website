@@ -141,12 +141,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mailchimp`,
-      options: {
-        endpoint: "https://bijanrahnamai.us22.list-manage.com/subscribe/post?u=f6c42bfc62027455624cb7855&amp;id=9a50b5b2fe&amp;f_id=00becee1f0",
-      },
-    },
-    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `

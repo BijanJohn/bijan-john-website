@@ -126,6 +126,9 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <div style={{ margin: "2rem 0" }}>
+            <SubscribeForm />
+          </div>
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
