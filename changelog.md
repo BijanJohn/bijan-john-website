@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.3.1] - 2025-10-13
+### Added 
+- published page Becoming Fluent
+
 ## [2.3.0] - 2025-10-06
 ### Added 
 - Added RSS Feed
