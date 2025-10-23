@@ -33,7 +33,7 @@ In 1974-75 he lived in Siam to learn the language and do research where he notic
 
 Most of his fieldwork was done in Indonesia earlier. He had such a love for Indonesia that he called it his first love. In order to better do his research he recognized a need to learn the Dutch language to understand the texts written by the colonizing Dutch in Indonesia.
 
-At Cornell (where he both studied and worked), Dutch was not regularly taught so he taught himself the language, not to speak it, but to read and understand. He said it was not too hard, since he knew some German, which his like a more difficult version of Dutch. He did this in a way that he repeated many years later when he decided to learn Spanish, by taking a large, difficult and fascinating book and stumbling through it line by line, almost word for word, with a big dictionary at his side.
+At Cornell (where he both studied and worked), Dutch was not regularly taught so he taught himself the language, not to speak it, but to read and understand. He said it was not too hard, since he knew some German, which is like a more difficult version of Dutch. He did this in a way that he repeated many years later when he decided to learn Spanish, by taking a large, difficult and fascinating book and stumbling through it line by line, almost word for word, with a big dictionary at his side.
 
 ### Latin
 
