@@ -65,9 +65,9 @@ During his youth at a boarding school he did not know it at the time, but he was
 
 I have lived in Indonesia now for the last 3 months and have enjoyed learning Bahasa Indonesia. The term used commonly to describe foreigners is "bulé". While reading Benedict's memoir I learned that he was the one who coined this term around 1963.
 
-He said that he never thought of himself as "white", but in a society only recently liberated from colonialism, he found himself too often addressed as "Tuan" (Master), as the Dutch colonialists had insisted on being called, and some people were embarrassingly deferential to an unimportant foreign student simply because of the colour of his skin.
+He said that he never thought of himself as "white", but in a society only recently liberated from colonialism, he found himself too often addressed as "Tuan" (Master), as the Dutch colonialists had insisted on being called, and some people were embarrassingly deferential to an unimportant foreign student simply because of the color of his skin.
 
-Looking at his skin, which was not white but pink-grey, he realized that it was close to the skin colour of albino animals (water buffaloes, cows, elephants, and so on), for which Indonesians used the casual term "bulai" or "bulé". So he told his young friends that he and other people who looked like him should be called "bulé", not "putih" (white). They loved the idea and passed it around among other students they knew. Gradually it spread to the newspapers and magazines until it became part of everyday Indonesian language.
+Looking at his skin, which was not white but pink-grey, he realized that it was close to the skin color of albino animals (water buffaloes, cows, elephants, and so on), for which Indonesians used the casual term "bulai" or "bulé". So he told his young friends that he and other people who looked like him should be called "bulé", not "putih" (white). They loved the idea and passed it around among other students they knew. Gradually it spread to the newspapers and magazines until it became part of everyday Indonesian language.
 
 From Benedict's own words
 
@@ -75,7 +75,7 @@ From Benedict's own words
 
 ### Mau ke mana? (Where are you going?)
 
-In Indonesia, when someone asks you where you are going and you either don't want to tell them or you haven't yet decided, you answer: "lagi tjari angin", which means "I am looking for a wind", as if you were a sailing ship heading out of a harbour onto the vast open sea.
+In Indonesia, when someone asks you where you are going and you either don't want to tell them or you haven't yet decided, you answer: "lagi tjari angin", which means "I am looking for a wind", as if you were a sailing ship heading out of a harbor onto the vast open sea.
 
 ## Final thoughts
 
