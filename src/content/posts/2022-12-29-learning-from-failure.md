@@ -4,10 +4,10 @@ title: Learning from Failure
 slug: /learning-from-failure
 date: 2022-12-29
 description: Post about passing AWS DevOps Professional Exam
-featuredImage: /assets/aws-cert.png
+featuredImage: /assets/learning-from-failure/aws-cert.png
 ---
 
-<img src="/assets/aws-cert.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/learning-from-failure/aws-cert.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
 
 
 ## **Failure is just a stepping stone to success**
@@ -16,7 +16,7 @@ At the end of 2022, I took the [AWS Certified DevOps Engineer - Professional](ht
 When I shared it with a few of my developer friends I was reminded that "Failure is just a stepping stone to success". I feel fortunate to have this belief in my belief system after working in engineering for several years, I also feel fortunate for the friend who reminded me of this (you know who you are ;).<br>
 I recently passed that exam at the beginning of February 2023, and I feel it is worth reflecting on a bit, so I am writing this post in hopes to remind my future self that "failure" is just part of the process; bonus points for if I inspire anyone else to attempt something difficult.
 
-<img src="/assets/Exam_Day.jpg" alt="funny meme about exam day" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/learning-from-failure/Exam_Day.jpg" alt="funny meme about exam day" width="500" style="display: block; margin: 0 auto;" />
 
 ### How do I learn engineering and new technologies?
 
@@ -73,4 +73,4 @@ This beginners mindset can be intimating, but maintaining a curiosity in learnin
 
 This was my first post of this sort, so let me know if this resonates with you at all and I may create some follow-ups on the subject and learning.<br>
 
-<img src="/assets/altered-scope.png" alt="funny meme about project scope" style="display: block; margin: 0 auto;" />
+<img src="/assets/learning-from-failure/altered-scope.png" alt="funny meme about project scope" style="display: block; margin: 0 auto;" />

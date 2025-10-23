@@ -3,11 +3,11 @@ title: The Most Important Book I've Read This Year
 template: blog-post
 date: 2024-08-25
 slug: /atlas-of-the-heart
-featuredImage: /assets/atlas-of-the-heart.jpg
+featuredImage: /assets/atlas-1/atlas-of-the-heart.jpg
 description: book image of atlas of the heart
 ---
 
-<img src="/assets/atlas-of-the-heart.jpg" alt="image of atlas of the heart book" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-1/atlas-of-the-heart.jpg" alt="image of atlas of the heart book" width="300" style="display: block; margin: 0 auto;" />
 
 Every now and then you come across a book that changes everything.<br>
 Atlas of the Heart has recently been that book for me.<br>
@@ -33,7 +33,7 @@ Here are a few of the most memorable takeaways I've found from this book.
 
 ## Places We Go When Things Are Uncertain or Too Much
 
-<img src="/assets/stressed-out.jpg" alt="tribe called quest stressed out" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-1/stressed-out.jpg" alt="tribe called quest stressed out" width="300" style="display: block; margin: 0 auto;" />
 
 ### Stress and Overwhelm
 
@@ -49,7 +49,7 @@ Understanding when these are happening can allow us to either reach out for help
 
 ## Places We Go When We Compare
 
-<img src="/assets/comparison-mirrors.jpeg" alt="comparison mirrors" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-1/comparison-mirrors.jpeg" alt="comparison mirrors" width="300" style="display: block; margin: 0 auto;" />
 
 ### Envy and Jealousy
 
@@ -82,7 +82,7 @@ A big surprise from reading about resentment was to learn that it doesn't come f
 
 ## Places We Go When Things Don't Go As Planned
 
-<img src="/assets/disappointment-cat.jpg" alt="disappointment cat" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-1/disappointment-cat.jpg" alt="disappointment cat" width="300" style="display: block; margin: 0 auto;" />
 
 I have struggled with anger in my life, being mad. Now I recognize so many other emotions that are underneath anger and many of them are listed here below, when things don't go as planned.
 

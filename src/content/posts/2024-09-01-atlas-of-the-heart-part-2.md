@@ -3,11 +3,11 @@ title: A Most Important Book - Part 2
 template: blog-post
 date: 2024-09-01
 slug: /atlas-of-the-heart-part-2
-featuredImage: /assets/emotions-wheel-1.jpg
+featuredImage: /assets/atlas-2/emotions-wheel-1.jpg
 description: image of emotions wheel
 ---
 
-<img src="/assets/emotions-wheel-1.jpg" alt="image of my first emotions wheel" width="300" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-2/emotions-wheel-1.jpg" alt="image of my first emotions wheel" width="300" style="display: block; margin: 0 auto;" />
 
 One of the most important tools I've found helpful in developing my understanding around emotions has been the emotions wheel.<br><br>
 There are many of them online that you can find and use to look at to better label and identify what you are experiencing. When we are in the moment it can be difficult to bring to mind the range of different emotions and this wheel with all the emotions listed can be a critical tool for processing.<br><br>
@@ -17,7 +17,7 @@ You can look at her full list of emotions [here on her website](https://brenebro
 
 I started this blog post with my first emotions wheel that I created for myself as it is a basic one that is less intimidating than looking at one with dozens or even a hundred different emotions listed. As you get more familiar with the different emotions listed you can grow to using a more expansive wheel.<br>
 
-<img src="/assets/emotions-wheel-2.jpg" alt="image of emotions wheel 2" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-2/emotions-wheel-2.jpg" alt="image of emotions wheel 2" width="500" style="display: block; margin: 0 auto;" />
 
 ## Places We Go When It's Beyond Us
 
@@ -38,7 +38,7 @@ Awe-inducing events may be one of the fastest and most powerful methods of perso
 <br>
 Curiosity is the feeling of deprivation we experience when we identify and focus on a gap in our knowledge. Choosing to be curious is choosing to be vulnerable because it requires us to surrender to uncertainty.
 
-<img src="/assets/emotions-wheel-3.jpg" alt="image of emotions wheel 3" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-2/emotions-wheel-3.jpg" alt="image of emotions wheel 3" width="500" style="display: block; margin: 0 auto;" />
 
 ## Places We Go When Things Aren't What They Seem
 
@@ -88,7 +88,7 @@ An example from Brene's book of paradox:<br>
 I know that I have confused these two many times.<br>
 Irony and sarcasm are forms of communication in which the literal meaning of the words is different, often opposite, from the intended message. In both irony and sarcasm, there may be an element of criticism and humor. However, sarcasm is a particular type of irony in which the underlying message is normally meant to ridicule, tease, or critize.
 
-<img src="/assets/emotions-wheel-4.jpg" alt="image of emotions wheel 4" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/atlas-2/emotions-wheel-4.jpg" alt="image of emotions wheel 4" width="500" style="display: block; margin: 0 auto;" />
 
 ## Places We Go When We're Hurting
 

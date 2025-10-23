@@ -3,7 +3,7 @@ title: Software Delivery
 template: blog-post
 date: 2022-10-01
 slug: /software-delivery
-featuredImage: /assets/continuous-delivery-cycle.png
+featuredImage: /assets/software-delivery/continuous-delivery-cycle.png
 description: image to showcase continous delivery
 ---
 The thing that excites me most in my work is figuring out how to build and maintain better systems to delivery software updates.<br>

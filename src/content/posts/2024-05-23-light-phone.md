@@ -4,10 +4,10 @@ title: Five months without a Smart Phone
 slug: /light-phone
 date: 2024-05-23
 description: Post about using a light phone
-featuredImage: /assets/light-phone-post.jpeg
+featuredImage: /assets/light-phone/light-phone-post.jpeg
 ---
 
-<img src="/assets/light-phone-post.jpeg" alt="image of Light Phone" width="700" style="display: block; margin: 0 auto;" />
+<img src="/assets/light-phone/light-phone-post.jpeg" alt="image of Light Phone" width="700" style="display: block; margin: 0 auto;" />
 
 At the beginning of the year I decided to switch to a "dumb phone" called a *Light Phone*, which really is a phone that has limited functionality, i.e. not connected to the internet or app stores.
 I did this because I wanted to see if this would make me less addicted to my phone and more productive in life. I'm focused on learning a few languages, attempting to read 100 books this year and creating my music and art as my new vocation (more on this in future posts 😄).
@@ -19,7 +19,7 @@ I did this because I wanted to see if this would make me less addicted to my pho
 It is a small, kindle like black/white e-reader that is beautifully crafted. By design it is meant to help you live without Big Tech companies by avoiding "Surveillance Capitalism" and the "Attention Economy". Their website states **"you are the customer, not the product. This is a phone for humans"**.<br>
 How refreshing!
 
-<img src="/assets/light-phone-too-many-things.jpeg" alt="image of Light Phone" width="700" style="display: block; margin: 0 auto;" />
+<img src="/assets/light-phone/light-phone-too-many-things.jpeg" alt="image of Light Phone" width="700" style="display: block; margin: 0 auto;" />
 
 As someone who had already decided to get off of social media (more about that in an upcoming blog article as well) I was already weaned off of tech more than the average person but I found myself compelled to pick up my iphone quite often. Using this Light Phone helped me become more comfortable leaving home without a phone and not always being tied to a phone as an extension of myself.
 
@@ -45,7 +45,7 @@ Whenever someone would send me a picture or a hyperlink via text I wouldn't be a
 
 I enjoyed this as artifically slowed me down at times. This ultimately gets to the point of the phone for me. **Life is so much more interesting than these magic light boxes we all carry around with us.** By having to take extra steps to get a picture, by making my phone less addictive in taking away a great deal of functionality I am better able to be present and enjoy the moment without the assistance of an artificial piece of technology.
 
-<img src="/assets/light-phone-before-after.jpg" alt="image of before after smart phone" style="display: block; margin: 0 auto;" />
+<img src="/assets/light-phone/light-phone-before-after.jpg" alt="image of before after smart phone" style="display: block; margin: 0 auto;" />
 
 
 ## Going back
@@ -70,6 +70,6 @@ Being so connected with the world has some benefits but ultimately I have found 
 <br><br>
 If you are interested in exploring this further, I would highly recommend reading one of my favorite books, [*Digital Minimalism*](https://calnewport.com/writing/) by Cal Newport.
 
-<img src="/assets/digital-minimalism.png" alt="image of Digital Minimalism Book" style="display: block; margin: 0 auto;" />
+<img src="/assets/light-phone/digital-minimalism.png" alt="image of Digital Minimalism Book" style="display: block; margin: 0 auto;" />
 
 My favorite quote from Cal's book is that **"either you choose how you use technology, or the technology will choose for you"**. We live in a world where the billions invested in making technology addictive will require us to make intentional choices on how we use our phone and devices, what choices will you make?

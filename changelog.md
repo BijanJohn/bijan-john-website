@@ -6,14 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [ ] Write a blog post about Yoga Teacher Training in Thailand, mid November 2024 anniversary.
 - [ ] Write a blog post about Potato Diet experience "September 7th Potatoe Diet" videos
-- [ ] Write a blog post about "A Life Beyond Boundaries" once finished
+- [✅] Write a blog post about "A Life Beyond Boundaries" once finished
 - [ ] Write a blog post about "The Examined Life" once finished
 - [ ] When ready to come off of TRT, write about it and also do a YT blog series around this topic (before, during and after); this can be a way of being of service to share with others.
 - [ ] Fasting experiences and what they are like; video recordings and testimony.
 - [ ] Write a blog post about the benefits of legs up the wall. Maybe a YT video as well/ IG video.
-- [ ] Write a blog about the book "Becoming Fluent" by Richard Roberts, Roger Kreuz about useful methods.
+- [✅] Write a blog about the book "Becoming Fluent" by Richard Roberts, Roger Kreuz about useful methods.
 
 ## [Released]
+
+## [2.3.2] - 2025-10-23
+### Changed 
+- Moved images into sub dir, updated change log
+- Added new post on polyglot memoir
 
 ## [2.3.1] - 2025-10-13
 ### Added 

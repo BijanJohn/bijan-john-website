@@ -4,10 +4,10 @@ title: Travel is the University of Life
 slug: /travel-is-the-university-of-life
 date: 2024-05-13
 description: Post about Costa Rica travel trip
-featuredImage: /assets/costa-rica2.png
+featuredImage: /assets/costa-rica/costa-rica2.png
 ---
 
-<img src="/assets/costa-rica2.png" alt="image of Costa Rica" width="700" style="display: block; margin: 0 auto;" />
+<img src="/assets/costa-rica/costa-rica2.png" alt="image of Costa Rica" width="700" style="display: block; margin: 0 auto;" />
 
 I recently came back from my first solo international travel trip.
 My yoga studio [Lizard Yoga](https://lizardyoga.com/) (check them out if you are in South Austin!) had a yoga retreat for a week in the Chirripos Mountains of Costa Rica.<br>
@@ -44,7 +44,7 @@ I am adopting this philosophy myself and next year plan to study Turkish and tra
 # Community
 ### *comunidad*
 
-<img src="/assets/costa-rica-crew.jpg" alt="image of yoga friends"  />
+<img src="/assets/costa-rica/costa-rica-crew.jpg" alt="image of yoga friends"  />
 
 I had the fortune of connecting with each of these incredible people in the picture above and some not seen, I think Liz took this photo 📷. 
 The wonderful facilitors Caitlin, Jane and Liz at Camp Nueva Vida in the Chirripos Mountains created such a welcoming and nurturing home for us all and even though we only met for the first time in Costa Rica we left feeling like long time friends.
@@ -52,21 +52,21 @@ This was the first retreat at Nueva Vida which made the time with this crew extr
 <br><br>
 We ate gourmet meals three times a day from our two incredible chefs Chris and Jeremiah.
 
-<img src="/assets/chris-and-jeremiah.jpeg" alt="image of yoga friends"  />
+<img src="/assets/costa-rica/chris-and-jeremiah.jpeg" alt="image of yoga friends"  />
 
 We had a travel day to the beach, *Parque Nacional Marion Ballena*
 
-<img src="/assets/marino-ballena.jpg" alt="image of marino ballena beach"  />
+<img src="/assets/costa-rica/marino-ballena.jpg" alt="image of marino ballena beach"  />
 
 Vists to a waterfall, butterfly sancutary, massage/facial day, camp fire stories/songs, yoga classes, ayuvedic classes and EFT classes were a few other experiences.
 Each morning the birds would sing you awake with their songs as you would awaken to a view of the mountains.
 
-<img src="/assets/nueva-vida.jpg" alt="image of view from nueva vida"  />
+<img src="/assets/costa-rica/nueva-vida.jpg" alt="image of view from nueva vida"  />
 
 None of these incredible places/foods/experiences would have happened without the people who put them together and created the container for us to explore the world and ourselves.
 The reason I decided to go on the trip was because I knew Liz, who owns and operates Lizard Yoga with Tanner, was creating this and I know how much intention and Love she puts into everything she does.
 
-<img src="/assets/bijan-and-liz.jpg" alt="image of Bijan and Liz"  />
+<img src="/assets/costa-rica/bijan-and-liz.jpg" alt="image of Bijan and Liz"  />
 
 # Fruit
 ### *fruta*
@@ -78,19 +78,19 @@ You could just walk the streets and eat fruit each day and be a happy camper<br>
 
 Star fruit and water apples, the water apples are juicy and with a delicious astringent flavor.
 
-<img src="/assets/star-fruit-water-apple.jpg" alt="image of star fruit and water apple"  />
+<img src="/assets/costa-rica/star-fruit-water-apple.jpg" alt="image of star fruit and water apple"  />
 
 Granadilla, has this unqiue pouch of seeds that were so good!
 
-<img src="/assets/granadilla.jpg" alt="image of granadilla" />
+<img src="/assets/costa-rica/granadilla.jpg" alt="image of granadilla" />
 
 Guaba was another unqiue fruit, called the ice cream bean as it tastes like ice cream with a bean inside. 
 
-<img src="/assets/guaba.jpg" alt="image of guaba"  />
+<img src="/assets/costa-rica/guaba.jpg" alt="image of guaba"  />
 
 Fresh mango outside my hotel room.
 
-<img src="/assets/fresh-mango.jpg" alt="image of fresh mango"  />
+<img src="/assets/costa-rica/fresh-mango.jpg" alt="image of fresh mango"  />
 
 # Mentors
 ### *mentores*
@@ -102,7 +102,7 @@ I speak with him often on the phone but we had never met in person.<br>
 His brother lives in Costa Rica and his family was doing a family trip to see each other around the same time I was visiting.<br>
 Fate allowed me to spend my last full day with Ryan and it was the perfect end to the trip.<br>
 
-<img src="/assets/bijan-and-ryan.jpg" alt="image of Bijan and Caitlin"  />
+<img src="/assets/costa-rica/bijan-and-ryan.jpg" alt="image of Bijan and Ryan"  />
 
 People have an energy you can feel in person.<br>
 You can feel this energy over their communication via text and voice on the phone.<br>
@@ -110,7 +110,7 @@ Once you experience their spirit in person, that connection is with you forever.
 Now when I speak with Ryan back home in Austin, it feels like he is sitting right next to me.<br>
 For this I am truly grateful.<br>
 
-<img src="/assets/bijan-and-ryan2.jpg" alt="image of Bijan and Caitlin"  />
+<img src="/assets/costa-rica/bijan-and-ryan2.jpg" alt="image of Bijan and Caitlin"  />
 
 Find someone who can help you get through the hard times.<br>
 Then go out and help someone else.<br>

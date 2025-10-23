@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Bijan
 tagline: Engineer and Artist
-featuredImage: /assets/bijan-costa-rica.jpg
+featuredImage: /assets/profile/bijan-costa-rica.jpg
 cta:
   ctaText: Know more
   ctaLink: /about

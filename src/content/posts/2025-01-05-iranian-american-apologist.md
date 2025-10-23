@@ -3,11 +3,11 @@ title: Iranian American Apologist
 template: blog-post
 date: 2025-01-11
 slug: /iranian-american-apologist
-featuredImage: /assets/iranian-american-flag.jpg
+featuredImage: /assets/apologist/iranian-american-flag.jpg
 description: image of Iranian and American Flag
 ---
 
-<img src="/assets/iranian-american-flag.jpg" alt="image of Iranian American Flag" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/apologist/iranian-american-flag.jpg" alt="image of Iranian American Flag" width="500" style="display: block; margin: 0 auto;" />
 
 ## peace in the Middle East
 
@@ -108,4 +108,4 @@ This upcoming president's day lets meet at the Texas State Capitol to protest th
 I don't expect protest to be much of an effective tool for change, but at the very least it can be a catharsis to the malaise we are all feeling from the deluge of unconstitutional actions which we are inundated with daily.<br>
 At the very most it can assure us that we are not alone, that we can unite, that we can connect and form solutions by working together as we all navigate these dark and difficult circumstances we all find ourselves in.<br>
 
-<img src="/assets/protest-trump.jpg" alt="image of Protest Trump" width="500" style="display: block; margin: 0 auto;" />
+<img src="/assets/apologist/protest-trump.jpg" alt="image of Protest Trump" width="500" style="display: block; margin: 0 auto;" />
