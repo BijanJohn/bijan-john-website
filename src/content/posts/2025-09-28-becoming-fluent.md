@@ -19,11 +19,11 @@ There are only two areas where children have an advantage over adults and that i
 
 ### Metalinguistic Awareness
 
-Metacognition, is thinking about thinking. Most of the time, cognitive processes function so smoothly and effortlessly that we rarely pause to reflect on them. However when we breifly stop and consider the way our mind works (or when it fails) we can see we have a great advantage over children as this ability is our greatest strength.
+Metacognition, is thinking about thinking. Most of the time, cognitive processes function so smoothly and effortlessly that we rarely pause to reflect on them. However when we briefly stop and consider the way our mind works (or when it fails) we can see we have a great advantage over children as this ability is our greatest strength.
 
-Metalinguistic awarness is a bit different, it is knowing about how our language works and not just knowing a language. For example`, how we know to be polite, or to make a joke.
+Metalinguistic awarness is a bit different, it is knowing about how our language works and not just knowing a language. For example, how we know to be polite, or to make a joke.
 
-A good example of how we use this in learning languages is that there are certain phrases which can help us learn simply by having a patient audience help by politely asking:
+A good example of how we use this in learning languages is that there are certain phrases which improve our learning simply by having a patient audience help us by politely asking:
 
 >"Could you please say that again?" <br>"Could you speak more slowly?"<br>"Hold on one moment."
 
@@ -57,9 +57,9 @@ My favorite learning concept is one created by Russian psychologist Lev Vygotsky
 
 Educators use a term called readiness as the cognitive state when a person will benefit from a particular educational experience. For instance, schoolchildren are not yet ready to study calculus but can surely understand more concrete concepts like counting numbers.
 
-Within the zone of proximal development is also the concept of scaffolding. Just as a physical scaffold can provide support for painters and other artists, a teacher can provide support to their pupils to help them master sometihng that they can't learn on their own. There is something to "watch one, do one, teach one" that has been a powerful experience for me in my learning experiences.
+Within the zone of proximal development is also the concept of scaffolding. Just as a physical scaffold can provide support for painters and other artists, a teacher can provide support to their pupils to help them master something that they can't learn on their own. There is something to "watch one, do one, teach one" that has been a powerful experience for me in my learning experiences.
 
-The sweet spot of not too hard and not too easy learning is where we want to be at. If material and practice is too challenging we will give up in frustration, if it is too easy we will get bored and not actually be learning as deeply as otherwise could.
+The sweet spot of not too hard and not too easy learning is where we want to be at. If material and practice is too challenging we will give up in frustration, if it is too easy we will get bored and not actually be learning as deeply as we otherwise could.
 
 Adults have this strategy while children need guidance as they go.
 
