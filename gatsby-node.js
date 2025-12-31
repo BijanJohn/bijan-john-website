@@ -1,6 +1,9 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+const languages = ['en', 'fa', 'id']
+const defaultLanguage = 'en'
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
@@ -12,10 +15,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             id
+            fileAbsolutePath
             frontmatter {
               slug
               template
               title
+              language
             }
           }
         }
@@ -31,46 +36,75 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
-  let blogPostsCount = 0
+
+  // Track blog posts per language for pagination
+  const blogPostsPerLang = { en: 0, fa: 0, id: 0 }
 
   posts.forEach((post, index) => {
     const id = post.node.id
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+    const frontmatter = post.node.frontmatter
+
+    // Detect language from frontmatter or file path
+    let lang = frontmatter.language
+    if (!lang) {
+      const pathMatch = post.node.fileAbsolutePath.match(/\/content\/(\w+)\//)
+      lang = pathMatch ? pathMatch[1] : defaultLanguage
+    }
+
+    // Calculate language prefix (no prefix for default language)
+    const langPrefix = lang === defaultLanguage ? '' : `/${lang}`
+
+    // Get previous/next posts (within same language)
+    const sameLangPosts = posts.filter(p => {
+      const pLang = p.node.frontmatter.language ||
+        (p.node.fileAbsolutePath.match(/\/content\/(\w+)\//)?.[1]) ||
+        defaultLanguage
+      return pLang === lang && p.node.frontmatter.template === 'blog-post'
+    })
+
+    const currentIndex = sameLangPosts.findIndex(p => p.node.id === id)
+    const previous = currentIndex === sameLangPosts.length - 1 ? null : sameLangPosts[currentIndex + 1]?.node
+    const next = currentIndex === 0 ? null : sameLangPosts[currentIndex - 1]?.node
 
     createPage({
-      path: post.node.frontmatter.slug,
+      path: `${langPrefix}${frontmatter.slug}`,
       component: path.resolve(
-        `src/templates/${String(post.node.frontmatter.template)}.js`
+        `src/templates/${String(frontmatter.template)}.js`
       ),
-      // additional data can be passed via context
       context: {
         id,
+        language: lang,
         previous,
         next,
       },
     })
 
-    // Count blog posts.
-    if (post.node.frontmatter.template === "blog-post") {
-      blogPostsCount++
+    // Count blog posts per language
+    if (frontmatter.template === "blog-post") {
+      blogPostsPerLang[lang] = (blogPostsPerLang[lang] || 0) + 1
     }
   })
 
-  // Create blog-list pages
+  // Create blog-list pages for each language
   const postsPerPage = 9
-  const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
-  Array.from({ length: numPages }).forEach((_, i) => {
-    createPage({
-      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-      component: blogList,
-      context: {
-        limit: postsPerPage,
-        skip: i * postsPerPage,
-        numPages,
-        currentPage: i + 1,
-      },
+  languages.forEach(lang => {
+    const langPrefix = lang === defaultLanguage ? '' : `/${lang}`
+    const blogPostsCount = blogPostsPerLang[lang] || 0
+    const numPages = Math.ceil(blogPostsCount / postsPerPage) || 1
+
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `${langPrefix}/blog` : `${langPrefix}/blog/${i + 1}`,
+        component: blogList,
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+          language: lang,
+        },
+      })
     })
   })
 }
@@ -83,6 +117,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       name: `slug`,
       value: slug,
+    })
+
+    // Add language field based on file path
+    const pathMatch = node.fileAbsolutePath?.match(/\/content\/(\w+)\//)
+    const language = pathMatch ? pathMatch[1] : defaultLanguage
+    createNodeField({
+      node,
+      name: `language`,
+      value: language,
     })
   }
 }

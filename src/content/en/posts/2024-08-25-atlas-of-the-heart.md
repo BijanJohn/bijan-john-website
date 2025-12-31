@@ -1,4 +1,5 @@
 ---
+language: en
 title: The Most Important Book I've Read This Year
 template: blog-post
 date: 2024-08-25
@@ -6,6 +7,7 @@ slug: /atlas-of-the-heart
 featuredImage: /assets/atlas-1/atlas-of-the-heart.jpg
 description: book image of atlas of the heart
 ---
+language: en
 
 <img src="/assets/atlas-1/atlas-of-the-heart.jpg" alt="image of atlas of the heart book" width="300" style="display: block; margin: 0 auto;" />
 

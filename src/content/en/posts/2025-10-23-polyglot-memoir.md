@@ -1,4 +1,5 @@
 ---
+language: en
 title: Polyglot Memoir
 template: blog-post
 date: 2025-10-05
@@ -6,6 +7,7 @@ slug: /benedict-anderson
 featuredImage: /assets/polyglot-memoir/life-beyond-boundaries.jpg
 description: image of language learning text books
 ---
+language: en
 <figure style="text-align: center;">
   <img src="/assets/polyglot-memoir/life-beyond-boundaries.jpg" alt="image of Book by Benedict Anderson learning texts" width="500" style="display: block; margin: 0 auto;" />
   <figcaption>Memoir of the late scholar and polyglot Benedict Anderson</figcaption>

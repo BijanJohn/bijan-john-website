@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "blog": "Blog"
+  },
+  "theme": {
+    "dark": "Gelap",
+    "light": "Terang",
+    "toggle": "Ganti tema"
+  },
+  "search": {
+    "placeholder": "Cari",
+    "label": "cari",
+    "toggle": "Cari"
+  },
+  "blog": {
+    "latest": "Terbaru di",
+    "seeMore": "Lihat lebih",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya"
+  },
+  "subscribe": {
+    "title": "Dapatkan notifikasi posting baru"
+  },
+  "footer": {
+    "madeWith": "Situs sederhana, dibuat dengan"
+  },
+  "error": {
+    "title": "Halaman tidak ditemukan",
+    "heading": "Ups, kami tidak mengharapkan ini terjadi",
+    "message": "Apakah kamu tersesat? Mari kami bantu.",
+    "backHome": "Kembali ke Beranda",
+    "report": "Laporkan ini"
+  },
+  "bilingual": {
+    "persian": "فارسی",
+    "columns": "Berdampingan",
+    "alternating": "Bergantian",
+    "romanized": "Romanisasi"
+  }
+}

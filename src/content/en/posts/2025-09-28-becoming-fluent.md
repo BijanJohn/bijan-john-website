@@ -1,4 +1,5 @@
 ---
+language: en
 title: Becoming Fluent
 template: blog-post
 date: 2025-09-28
@@ -6,6 +7,7 @@ slug: /becoming-fluent
 featuredImage: /assets/becoming-fluent/becoming-fluent.jpg
 description: image of Becoming Fluent book
 ---
+language: en
 <figure style="text-align: center;">
   <img src="/assets/becoming-fluent/becoming-fluent.jpg" alt="image of becoming fluent texts" width="500" style="display: block; margin: 0 auto;" />
   <figcaption>Wonderful book on how adults learn languages</figcaption>

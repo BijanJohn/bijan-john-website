@@ -1,4 +1,5 @@
 ---
+language: en
 title: Moving to Bali
 template: blog-post
 date: 2025-08-04
@@ -6,6 +7,7 @@ slug: /moving-to-bali
 featuredImage: /assets/bali/bali-painting.JPG
 description: image of Bali Indonesia map
 ---
+language: en
 
 <img src="/assets/bali/bali-painting.jpg" alt="painting image of Bali Indonesia map" width="500" style="display: block; margin: 0 auto;" />
 

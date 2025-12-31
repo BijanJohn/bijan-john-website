@@ -25,8 +25,29 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/content/`,
-        name: `content`,
+        path: `${__dirname}/src/content/en/`,
+        name: `content-en`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/fa/`,
+        name: `content-fa`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/id/`,
+        name: `content-id`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/locales`,
+        name: `locale`,
       },
     },
     `gatsby-plugin-image`,
@@ -120,6 +141,28 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`,
+        languages: [`en`, `fa`, `id`],
+        defaultLanguage: `en`,
+        siteUrl: `https://bijanrahnamai.com`,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false,
+          },
+          keySeparator: `.`,
+          nsSeparator: false,
+        },
+        pages: [
+          {
+            matchPath: '/:lang?/blog/:uid',
+            getLanguageFromPath: true,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-netlify`,

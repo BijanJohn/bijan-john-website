@@ -8,11 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] - 2025-12-31
 
 ### Added
-- Comment system options research document
-- Planning for multilingual blog support (Persian and Indonesian)
+- Internationalization (i18n) infrastructure with gatsby-plugin-react-i18next
+- Support for English (default), Persian (fa), and Indonesian (id) languages
+- RTL (right-to-left) support for Persian content
+- Larger Persian font sizes for better readability (Vazirmatn font)
+- Language switcher component in header and mobile navigation
+- Bilingual content display components (side-by-side and alternating modes)
+- Translation files for all UI strings in three languages
+- Multi-language content folders (src/content/en/, fa/, id/)
+- Netlify CMS collections for each language
 
-### Planned
-- Internationalization (i18n) infrastructure
-- RTL (right-to-left) support for Persian
-- Multi-language content management
-- Language switcher UI
+### Changed
+- Reorganized content structure into language-specific folders
+- Updated gatsby-config.js with i18n plugin and language source filesystems
+- Updated gatsby-node.js for language-aware page generation
+- Updated all components to use translation hooks
+- Updated templates to filter content by language
+- Updated navigation with translated menu items
+
+### Documentation
+- Comment system options research document
+- Domain alias setup guide (docs/bijanyoga-domain-setup.md)

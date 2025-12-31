@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "toggle": "Toggle theme"
+  },
+  "search": {
+    "placeholder": "Search",
+    "label": "search",
+    "toggle": "Toggle search"
+  },
+  "blog": {
+    "latest": "Latest in",
+    "seeMore": "See more",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "subscribe": {
+    "title": "Get notified of new posts"
+  },
+  "footer": {
+    "madeWith": "A simple website, made with"
+  },
+  "error": {
+    "title": "Page not found",
+    "heading": "Oops we did not expect that to happen",
+    "message": "Have you wandered into the unknown? Let us help you.",
+    "backHome": "Back to Homepage",
+    "report": "Report this"
+  },
+  "bilingual": {
+    "persian": "فارسی",
+    "columns": "Side-by-Side",
+    "alternating": "Alternating",
+    "romanized": "Romanized"
+  }
+}

@@ -1,0 +1,115 @@
+// Persian (Farsi) Language Styles
+// Larger fonts for better readability of Persian script
+
+// Import Vazirmatn font from Google Fonts (add to HTML head or use gatsby-plugin-google-fonts)
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap');
+
+[lang="fa"] {
+  // Persian font stack
+  font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', 'Arial', sans-serif;
+
+  // Base font size increase for Persian readability
+  font-size: 1.15em;
+  line-height: 1.9;
+
+  // Headlines - larger for Persian
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  // Body text - optimized for Persian reading
+  p,
+  li,
+  blockquote {
+    font-size: 1.25em;
+    line-height: 2;
+    letter-spacing: 0;
+  }
+
+  // Blog post content
+  .blog-post-content {
+    p {
+      font-size: 1.3em;
+      line-height: 2.2;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  // Navigation items
+  .site-navigation li a {
+    font-size: 1.1em;
+  }
+
+  // Post cards
+  .post-card {
+    h2 {
+      font-size: 1.4em;
+    }
+    p {
+      font-size: 1.1em;
+    }
+  }
+
+  // Footer
+  .site-footer p {
+    font-size: 1.1em;
+  }
+}
+
+// Bilingual display styles
+.bilingual-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  .col-persian {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+    font-size: 1.3em;
+    line-height: 2;
+  }
+
+  .col-romanized {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.8;
+  }
+}
+
+.bilingual-alternating {
+  .line-persian {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+    font-size: 1.3em;
+    line-height: 2;
+  }
+
+  .line-romanized {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-size: 0.95em;
+  }
+}

@@ -1,4 +1,5 @@
 ---
+language: en
 template: index-page
 slug: /
 title: Bijan
@@ -8,6 +9,7 @@ cta:
   ctaText: About me
   ctaLink: /about
 ---
+language: en
 
 software engineer<br>
 polyglot<br>

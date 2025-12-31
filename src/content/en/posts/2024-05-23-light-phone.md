@@ -1,4 +1,5 @@
 ---
+language: en
 template: blog-post
 title: Five months without a Smart Phone
 slug: /light-phone
@@ -6,6 +7,7 @@ date: 2024-05-23
 description: Post about using a light phone
 featuredImage: /assets/light-phone/light-phone-post.jpeg
 ---
+language: en
 
 <img src="/assets/light-phone/light-phone-post.jpeg" alt="image of Light Phone" width="700" style="display: block; margin: 0 auto;" />
 

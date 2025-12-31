@@ -1,4 +1,5 @@
 ---
+language: en
 title: My Fitness Journey
 template: blog-post
 date: 2024-09-08
@@ -6,6 +7,7 @@ slug: /fitness-journey
 featuredImage: /assets/fitness/2024-sep.jpg
 description: image of bijan
 ---
+language: en
 
 <img src="/assets/fitness/2024-sep.jpg" alt="image of bijan 2024" width="700" style="display: block; margin: 0 auto;" />
 

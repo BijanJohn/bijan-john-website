@@ -1,4 +1,5 @@
 ---
+language: en
 title: Emotions - Part 3
 template: blog-post
 date: 2024-10-08
@@ -6,6 +7,7 @@ slug: /emotions-part-3
 featuredImage: /assets/persian-bootcamp/persian-emotions-wheel.jpeg
 description: image of Persian Emotions Wheel
 ---
+language: en
 
 <img src="/assets/persian-bootcamp/persian-emotions-wheel.jpeg" alt="image of Persian Emotions Wheel" width="500" style="display: block; margin: 0 auto;" />
 

@@ -1,4 +1,5 @@
 ---
+language: en
 title: The Closest Thing to Magic
 template: blog-post
 date: 2024-09-15
@@ -6,6 +7,7 @@ slug: /written-word
 featuredImage: /assets/written-word/write-what-should-not-be-forgotten.jpg
 description: magic
 ---
+language: en
 
 <img src="/assets/written-word/write-what-should-not-be-forgotten.jpg" width="500" style="display: block; margin: 0 auto;" />
 

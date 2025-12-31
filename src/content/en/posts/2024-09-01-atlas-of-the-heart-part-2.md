@@ -1,4 +1,5 @@
 ---
+language: en
 title: A Most Important Book - Part 2
 template: blog-post
 date: 2024-09-01
@@ -6,6 +7,7 @@ slug: /atlas-of-the-heart-part-2
 featuredImage: /assets/atlas-2/emotions-wheel-1.jpg
 description: image of emotions wheel
 ---
+language: en
 
 <img src="/assets/atlas-2/emotions-wheel-1.jpg" alt="image of my first emotions wheel" width="300" style="display: block; margin: 0 auto;" />
 
