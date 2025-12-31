@@ -4,7 +4,6 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { useI18next, useTranslation } from "gatsby-plugin-react-i18next"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
-import Theme from "../components/theme"
 import LanguageSwitcher from "./language-switcher"
 
 const Navigation = () => {
@@ -59,9 +58,6 @@ const Navigation = () => {
         <div sx={navStyle.langSwitcher}>
           <LanguageSwitcher />
         </div>
-        <div sx={navStyle.theme}>
-          <Theme />
-        </div>
       </ul>
     </nav>
   )
@@ -74,10 +70,6 @@ const navStyle = {
     ul: {
       bg: "siteColor",
     },
-  },
-  theme: {
-    display: ["block", "block", "block", "none"],
-    p: " 25px 20px 20px",
   },
   langSwitcher: {
     display: ["block", "block", "block", "none"],

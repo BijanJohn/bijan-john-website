@@ -11,7 +11,7 @@ import LanguageSwitcher from "./language-switcher"
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 
-import Theme from "../components/theme"
+// Theme toggle removed - using light mode only
 import Search from "../components/search"
 import SubscribeForm from "../components/subscribe-form"
 
@@ -55,7 +55,6 @@ const Layout = ({ children, className, props }) => {
         <div sx={layoutStyle.appearance}>
           <Search searchIndex={siteSearchIndex.index} />
           <LanguageSwitcher />
-          <Theme />
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>
