@@ -4,7 +4,6 @@ template: about-page
 slug: /about
 title: About Bijan
 ---
-language: en
 
 Bijan is a local poet, rapper and musician from Austin, Texas. <br>
 <br>

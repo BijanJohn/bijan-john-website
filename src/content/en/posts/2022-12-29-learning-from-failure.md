@@ -1,5 +1,4 @@
 ---
-language: en
 template: blog-post
 title: Learning from Failure
 slug: /learning-from-failure
@@ -7,7 +6,6 @@ date: 2022-12-29
 description: Post about passing AWS DevOps Professional Exam
 featuredImage: /assets/learning-from-failure/aws-cert.png
 ---
-language: en
 
 <img src="/assets/learning-from-failure/aws-cert.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
 

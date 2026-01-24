@@ -1,74 +1,26 @@
 // Persian (Farsi) Language Styles
-// Larger fonts for better readability of Persian script
+// Subtle adjustments for Persian script readability while maintaining layout consistency
 
-// Import Vazirmatn font from Google Fonts (add to HTML head or use gatsby-plugin-google-fonts)
+// Import Vazirmatn font from Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap');
 
 [lang="fa"] {
-  // Persian font stack
+  // Persian font stack - only change the font family
   font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', 'Arial', sans-serif;
 
-  // Base font size increase for Persian readability
-  font-size: 1.15em;
-  line-height: 1.9;
+  // Subtle line-height increase for Persian readability
+  line-height: 1.75;
 
-  // Headlines - larger for Persian
-  h1 {
-    font-size: 2.5rem;
-    line-height: 1.4;
+  // Headlines - use the same font
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', 'Arial', sans-serif;
   }
 
-  h2 {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-
-  h3 {
-    font-size: 1.75rem;
-    line-height: 1.5;
-  }
-
-  h4 {
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-
-  // Body text - optimized for Persian reading
-  p,
-  li,
-  blockquote {
-    font-size: 1.25em;
-    line-height: 2;
-    letter-spacing: 0;
-  }
-
-  // Blog post content
+  // Blog post content - slightly increased line height for readability
   .blog-post-content {
     p {
-      font-size: 1.3em;
-      line-height: 2.2;
-      margin-bottom: 1.5em;
+      line-height: 1.9;
     }
-  }
-
-  // Navigation items
-  .site-navigation li a {
-    font-size: 1.1em;
-  }
-
-  // Post cards
-  .post-card {
-    h2 {
-      font-size: 1.4em;
-    }
-    p {
-      font-size: 1.1em;
-    }
-  }
-
-  // Footer
-  .site-footer p {
-    font-size: 1.1em;
   }
 }
 
@@ -86,30 +38,33 @@
     text-align: right;
     direction: rtl;
     font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
-    font-size: 1.3em;
-    line-height: 2;
+    line-height: 1.9;
   }
 
   .col-romanized {
     color: #666;
-    font-size: 1em;
     line-height: 1.8;
   }
 }
 
 .bilingual-alternating {
+  margin-bottom: 1.5rem;
+
   .line-persian {
     text-align: right;
     direction: rtl;
     font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
-    font-size: 1.3em;
-    line-height: 2;
+    line-height: 1.9;
   }
 
   .line-romanized {
     color: #666;
     font-style: italic;
-    margin-bottom: 1.5rem;
-    font-size: 0.95em;
+  }
+
+  .line-english {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 0.5rem;
   }
 }

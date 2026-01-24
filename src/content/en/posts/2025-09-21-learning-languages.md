@@ -1,5 +1,4 @@
 ---
-language: en
 title: Learning Languages
 template: blog-post
 date: 2025-09-21
@@ -7,7 +6,6 @@ slug: /learning-languages
 featuredImage: /assets/languages/airport-books.jpg
 description: image of language learning text books
 ---
-language: en
 <figure style="text-align: center;">
   <img src="/assets/languages/airport-books.jpg" alt="image of language learning texts" width="500" style="display: block; margin: 0 auto;" />
   <figcaption>Books I bought in Denpasar airport while traveling to Malaysia</figcaption>

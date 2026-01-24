@@ -1,25 +1,22 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useTranslation } from "gatsby-plugin-react-i18next"
 
 const BilingualToggle = ({ mode, setMode }) => {
-  const { t } = useTranslation()
-
   const modes = [
-    { key: 'persian', label: t('bilingual.persian') },
-    { key: 'columns', label: t('bilingual.columns') },
-    { key: 'alternating', label: t('bilingual.alternating') },
-    { key: 'romanized', label: t('bilingual.romanized') },
+    { key: 'persian', label: 'فارسی' },
+    { key: 'columns', label: 'Side-by-Side' },
+    { key: 'alternating', label: 'Alternating' },
+    { key: 'romanized', label: 'Romanized' }
   ]
 
   return (
-    <div className="bilingual-toggle" sx={toggleStyle.container}>
-      {modes.map((m) => (
+    <div className="bilingual-toggle" sx={styles.container}>
+      {modes.map(m => (
         <button
           key={m.key}
           className={mode === m.key ? 'active' : ''}
           onClick={() => setMode(m.key)}
-          sx={toggleStyle.button}
+          sx={styles.button}
         >
           {m.label}
         </button>
@@ -28,35 +25,30 @@ const BilingualToggle = ({ mode, setMode }) => {
   )
 }
 
-export default BilingualToggle
-
-const toggleStyle = {
+const styles = {
   container: {
     display: 'flex',
-    gap: 2,
+    gap: '0.5rem',
+    marginBottom: '1.5rem',
     flexWrap: 'wrap',
-    mb: 4,
-    pb: 3,
-    borderBottom: '1px solid',
-    borderColor: 'muted',
   },
   button: {
-    fontSize: '0.875rem',
-    padding: '8px 16px',
-    borderRadius: '20px',
+    padding: '0.5rem 1rem',
     border: '1px solid',
     borderColor: 'muted',
-    bg: 'transparent',
-    color: 'text',
+    borderRadius: '4px',
+    background: 'transparent',
     cursor: 'pointer',
-    transition: 'all 0.2s',
+    fontSize: '0.9rem',
     '&:hover': {
-      bg: 'muted',
+      borderColor: 'primary',
     },
     '&.active': {
-      bg: 'primary',
+      background: 'primary',
       color: 'white',
       borderColor: 'primary',
     },
   },
 }
+
+export default BilingualToggle

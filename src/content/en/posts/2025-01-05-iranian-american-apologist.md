@@ -1,5 +1,4 @@
 ---
-language: en
 title: Iranian American Apologist
 template: blog-post
 date: 2025-01-11
@@ -7,7 +6,6 @@ slug: /iranian-american-apologist
 featuredImage: /assets/apologist/iranian-american-flag.jpg
 description: image of Iranian and American Flag
 ---
-language: en
 
 <img src="/assets/apologist/iranian-american-flag.jpg" alt="image of Iranian American Flag" width="500" style="display: block; margin: 0 auto;" />
 

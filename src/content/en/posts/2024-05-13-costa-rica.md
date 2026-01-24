@@ -1,5 +1,4 @@
 ---
-language: en
 template: blog-post
 title: Travel is the University of Life
 slug: /travel-is-the-university-of-life
@@ -7,7 +6,6 @@ date: 2024-05-13
 description: Post about Costa Rica travel trip
 featuredImage: /assets/costa-rica/costa-rica2.png
 ---
-language: en
 
 <img src="/assets/costa-rica/costa-rica2.png" alt="image of Costa Rica" width="700" style="display: block; margin: 0 auto;" />
 

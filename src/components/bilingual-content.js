@@ -4,7 +4,7 @@ import { jsx } from "theme-ui"
 const BilingualContent = ({ persian, romanized, mode }) => {
   if (mode === 'persian') {
     return (
-      <div className="persian-only" lang="fa" sx={contentStyle.persian}>
+      <div className="persian-only" lang="fa" dir="rtl" sx={styles.persian}>
         {persian}
       </div>
     )
@@ -12,7 +12,7 @@ const BilingualContent = ({ persian, romanized, mode }) => {
 
   if (mode === 'romanized') {
     return (
-      <div className="romanized-only" sx={contentStyle.romanized}>
+      <div className="romanized-only" sx={styles.romanized}>
         {romanized}
       </div>
     )
@@ -20,11 +20,11 @@ const BilingualContent = ({ persian, romanized, mode }) => {
 
   if (mode === 'columns') {
     return (
-      <div className="bilingual-columns" sx={contentStyle.columns}>
-        <div className="col-persian" lang="fa" sx={contentStyle.colPersian}>
+      <div className="bilingual-columns" sx={styles.columns}>
+        <div className="col-persian" lang="fa" dir="rtl" sx={styles.colPersian}>
           {persian}
         </div>
-        <div className="col-romanized" sx={contentStyle.colRomanized}>
+        <div className="col-romanized" sx={styles.colRomanized}>
           {romanized}
         </div>
       </div>
@@ -33,77 +33,60 @@ const BilingualContent = ({ persian, romanized, mode }) => {
 
   if (mode === 'alternating') {
     return (
-      <div className="bilingual-alternating" sx={contentStyle.alternating}>
-        <div className="line-persian" lang="fa" sx={contentStyle.linePersian}>
+      <div className="bilingual-alternating" sx={styles.alternating}>
+        <div className="line-persian" lang="fa" dir="rtl" sx={styles.linePersian}>
           {persian}
         </div>
-        <div className="line-romanized" sx={contentStyle.lineRomanized}>
+        <div className="line-romanized" sx={styles.lineRomanized}>
           {romanized}
         </div>
       </div>
     )
   }
 
-  // Default to columns
-  return (
-    <div className="bilingual-columns" sx={contentStyle.columns}>
-      <div className="col-persian" lang="fa" sx={contentStyle.colPersian}>
-        {persian}
-      </div>
-      <div className="col-romanized" sx={contentStyle.colRomanized}>
-        {romanized}
-      </div>
-    </div>
-  )
+  return null
 }
 
-export default BilingualContent
-
-const contentStyle = {
+const styles = {
   persian: {
     textAlign: 'right',
-    direction: 'rtl',
-    fontSize: '1.3em',
-    lineHeight: 2,
     fontFamily: "'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif",
+    lineHeight: 1.9,
+    marginBottom: '1rem',
   },
   romanized: {
-    fontSize: '1.1em',
     lineHeight: 1.8,
+    marginBottom: '1rem',
   },
   columns: {
     display: 'grid',
     gridTemplateColumns: ['1fr', '1fr', '1fr 1fr'],
-    gap: 4,
-    mb: 4,
+    gap: '2rem',
+    marginBottom: '1.5rem',
   },
   colPersian: {
     textAlign: 'right',
-    direction: 'rtl',
-    fontSize: '1.3em',
-    lineHeight: 2,
     fontFamily: "'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif",
-    order: [1, 1, 0], // Persian first on desktop, after on mobile
+    lineHeight: 1.9,
   },
   colRomanized: {
-    fontSize: '1em',
+    color: 'muted',
     lineHeight: 1.8,
-    color: 'gray',
   },
   alternating: {
-    mb: 4,
+    marginBottom: '1.5rem',
   },
   linePersian: {
     textAlign: 'right',
-    direction: 'rtl',
-    fontSize: '1.3em',
-    lineHeight: 2,
     fontFamily: "'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif",
+    lineHeight: 1.9,
+    marginBottom: '0.25rem',
   },
   lineRomanized: {
-    color: 'gray',
+    color: 'muted',
     fontStyle: 'italic',
-    mb: 4,
-    fontSize: '0.95em',
+    marginBottom: '1.5rem',
   },
 }
+
+export default BilingualContent

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import React, { useState } from "react"
+import { useState } from "react"
 import { Link } from "gatsby"
 import { useI18next, useTranslation } from "gatsby-plugin-react-i18next"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"

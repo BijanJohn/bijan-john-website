@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import React from "react"
 import { Link, graphql } from "gatsby"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
@@ -24,6 +23,15 @@ const styles = {
 
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!, $language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: {

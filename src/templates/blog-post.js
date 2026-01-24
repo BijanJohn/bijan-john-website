@@ -121,7 +121,16 @@ const Post = ({ data, pageContext }) => {
 export default Post
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String!) {
+  query BlogPostQuery($id: String!, $language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -131,6 +140,11 @@ export const pageQuery = graphql`
         slug
         title
         description
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 1200, height: 630, quality: 90)
+          }
+        }
       }
     }
   }

@@ -13,7 +13,6 @@ import Footer from "./footer"
 
 // Theme toggle removed - using light mode only
 import Search from "../components/search"
-import SubscribeForm from "../components/subscribe-form"
 
 // RTL languages
 const rtlLanguages = ['fa']

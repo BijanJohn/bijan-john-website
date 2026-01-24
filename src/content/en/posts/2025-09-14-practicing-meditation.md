@@ -1,5 +1,4 @@
 ---
-language: en
 title: Practicing Meditation
 template: blog-post
 date: 2025-09-14
@@ -7,7 +6,6 @@ slug: /practicing-meditation
 featuredImage: /assets/meditation/brahmavihara-arama.jpg
 description: image of Brahmavihara Arama
 ---
-language: en
 
 <img src="/assets/meditation/brahmavihara-arama.jpg" alt="image of Brahmavihara Arama Temple" width="500" style="display: block; margin: 0 auto;" />
 
