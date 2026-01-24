@@ -1,21 +1,25 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { useColorMode } from "theme-ui"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { FiMoon, FiSun } from "react-icons/fi"
 
 const Theme = () => {
   const [colorMode, setColorMode] = useColorMode()
+  const { t } = useTranslation()
+
   return (
     <div sx={themeStyles.modeOption}>
       <button
         onClick={e => {
           setColorMode(colorMode === "default" ? "dark" : "default")
-        }}aria-label="Click me"
+        }}
+        aria-label={t('theme.toggle')}
       >
         <div sx={themeStyles.modeIcons}>
           <div>{colorMode === "default" ? <FiMoon /> : <FiSun />}</div>
           <div sx={themeStyles.modeText}>
-            {colorMode === "default" ? "Dark" : "Light"}
+            {colorMode === "default" ? t('theme.dark') : t('theme.light')}
           </div>
         </div>
       </button>

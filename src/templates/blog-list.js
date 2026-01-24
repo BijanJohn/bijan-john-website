@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import React from "react"
 import { Link, graphql } from "gatsby"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
@@ -22,10 +22,22 @@ const styles = {
 }
 
 export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
+  query blogListQuery($skip: Int!, $limit: Int!, $language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: {
+        frontmatter: { template: { eq: "blog-post" } }
+        fields: { language: { eq: $language } }
+      }
       limit: $limit
       skip: $skip
     ) {
@@ -48,33 +60,34 @@ export const blogListQuery = graphql`
     }
   }
 `
-const Pagination = props => (
+
+const Pagination = ({ isFirst, prevPage, numPages, blogSlug, currentPage, isLast, nextPage, t }) => (
   <div className="pagination" sx={styles.pagination}>
     <ul>
-      {!props.isFirst && (
+      {!isFirst && (
         <li>
-          <Link to={props.prevPage} rel="prev">
+          <Link to={prevPage} rel="prev">
             <span className="icon -left">
               <RiArrowLeftLine />
             </span>{" "}
-            Previous
+            {t('blog.previous')}
           </Link>
         </li>
       )}
-      {Array.from({ length: props.numPages }, (_, i) => (
+      {Array.from({ length: numPages }, (_, i) => (
         <li key={`pagination-number${i + 1}`}>
           <Link
-            to={`${props.blogSlug}${i === 0 ? "" : i + 1}`}
-            className={props.currentPage === i + 1 ? "is-active num" : "num"}
+            to={`${blogSlug}${i === 0 ? "" : i + 1}`}
+            className={currentPage === i + 1 ? "is-active num" : "num"}
           >
             {i + 1}
           </Link>
         </li>
       ))}
-      {!props.isLast && (
+      {!isLast && (
         <li>
-          <Link to={props.nextPage} rel="next">
-            Next{" "}
+          <Link to={nextPage} rel="next">
+            {t('blog.next')}{" "}
             <span className="icon -right">
               <RiArrowRightLine />
             </span>
@@ -84,44 +97,44 @@ const Pagination = props => (
     </ul>
   </div>
 )
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const { currentPage, numPages } = this.props.pageContext
-    const blogSlug = "/blog/"
-    const isFirst = currentPage === 1
-    const isLast = currentPage === numPages
-    const prevPage =
-      currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
-    const nextPage = blogSlug + (currentPage + 1).toString()
 
-    const posts = data.allMarkdownRemark.edges
-      .filter(edge => !!edge.node.frontmatter.date)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
-    let props = {
-      isFirst,
-      prevPage,
-      numPages,
-      blogSlug,
-      currentPage,
-      isLast,
-      nextPage,
-    }
+const BlogIndex = ({ data, pageContext }) => {
+  const { t } = useTranslation()
+  const { currentPage, numPages, language } = pageContext
 
-    return (
-      <Layout className="blog-page">
-        <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
-          description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
-          }
-        />
-        <h1>Blog</h1>
-        <div className="grids col-1 sm-2 lg-3">{posts}</div>
-        <Pagination {...props} />
-      </Layout>
-    )
-  }
+  const langPrefix = language === 'en' ? '' : `/${language}`
+  const blogSlug = `${langPrefix}/blog/`
+
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage =
+    currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
+  const nextPage = blogSlug + (currentPage + 1).toString()
+
+  const posts = data.allMarkdownRemark.edges
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge => <PostCard key={edge.node.id} data={edge.node} langPrefix={langPrefix} />)
+
+  return (
+    <Layout className="blog-page">
+      <Seo
+        title={`${t('nav.blog')} — Page ${currentPage} of ${numPages}`}
+        description={`Blog page ${currentPage} of ${numPages}`}
+      />
+      <h1>{t('nav.blog')}</h1>
+      <div className="grids col-1 sm-2 lg-3">{posts}</div>
+      <Pagination
+        isFirst={isFirst}
+        prevPage={prevPage}
+        numPages={numPages}
+        blogSlug={blogSlug}
+        currentPage={currentPage}
+        isLast={isLast}
+        nextPage={nextPage}
+        t={t}
+      />
+    </Layout>
+  )
 }
 
 export default BlogIndex

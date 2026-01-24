@@ -18,7 +18,16 @@ import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
 export const pageQuery = graphql`
-  query HomeQuery($id: String!) {
+  query HomeQuery($id: String!, $language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -38,7 +47,10 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: {
+        frontmatter: { template: { eq: "blog-post" } }
+        fields: { language: { eq: $language } }
+      }
       limit: 6
     ) {
       edges {

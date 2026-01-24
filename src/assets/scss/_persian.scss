@@ -1,0 +1,70 @@
+// Persian (Farsi) Language Styles
+// Subtle adjustments for Persian script readability while maintaining layout consistency
+
+// Import Vazirmatn font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap');
+
+[lang="fa"] {
+  // Persian font stack - only change the font family
+  font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', 'Arial', sans-serif;
+
+  // Subtle line-height increase for Persian readability
+  line-height: 1.75;
+
+  // Headlines - use the same font
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', 'Arial', sans-serif;
+  }
+
+  // Blog post content - slightly increased line height for readability
+  .blog-post-content {
+    p {
+      line-height: 1.9;
+    }
+  }
+}
+
+// Bilingual display styles
+.bilingual-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  .col-persian {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+    line-height: 1.9;
+  }
+
+  .col-romanized {
+    color: #666;
+    line-height: 1.8;
+  }
+}
+
+.bilingual-alternating {
+  margin-bottom: 1.5rem;
+
+  .line-persian {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+    line-height: 1.9;
+  }
+
+  .line-romanized {
+    color: #666;
+    font-style: italic;
+  }
+
+  .line-english {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 0.5rem;
+  }
+}

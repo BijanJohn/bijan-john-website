@@ -1,18 +1,21 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
+import { useI18next } from "gatsby-plugin-react-i18next"
 
 import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation"
+import LanguageSwitcher from "./language-switcher"
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 
-import Theme from "../components/theme"
+// Theme toggle removed - using light mode only
 import Search from "../components/search"
-import SubscribeForm from "../components/subscribe-form"
 
+// RTL languages
+const rtlLanguages = ['fa']
 
 // Add Netlify Identity Widget
 if (typeof window !== "undefined") {
@@ -35,9 +38,11 @@ const query = graphql`
 const Layout = ({ children, className, props }) => {
   const { site, siteSearchIndex } = useStaticQuery(query)
   const { siteTitle } = site.siteMetadata
+  const { language } = useI18next()
+  const isRTL = rtlLanguages.includes(language)
 
   return (
-    <div className="primary-container">
+    <div className="primary-container" dir={isRTL ? 'rtl' : 'ltr'} lang={language}>
       <Header>
         <Logo title={siteTitle} />
         <div sx={layoutStyle.nav}>
@@ -48,7 +53,7 @@ const Layout = ({ children, className, props }) => {
         </div>
         <div sx={layoutStyle.appearance}>
           <Search searchIndex={siteSearchIndex.index} />
-          <Theme />
+          <LanguageSwitcher />
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>

@@ -5,7 +5,16 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 export const pageQuery = graphql`
-  query AboutQuery($id: String!) {
+  query AboutQuery($id: String!, $language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       html

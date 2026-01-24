@@ -1,4 +1,5 @@
 ---
+language: en
 template: about-page
 slug: /about
 title: About Bijan

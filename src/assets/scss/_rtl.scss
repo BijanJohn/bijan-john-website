@@ -1,0 +1,82 @@
+// RTL (Right-to-Left) Support Styles
+// Applied when dir="rtl" is set on the container
+
+[dir="rtl"] {
+  // Base text alignment
+  text-align: right;
+
+  // Navigation adjustments
+  .site-navigation {
+    ul li {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  }
+
+  // Search container positioning
+  .search-container {
+    right: auto;
+    left: 0;
+  }
+
+  // Flip directional icons
+  .icon.-left {
+    transform: scaleX(-1);
+  }
+  .icon.-right {
+    transform: scaleX(-1);
+  }
+
+  // Blog post navigation
+  .blog-post-nav {
+    flex-direction: row-reverse;
+
+    .nav-previous {
+      text-align: right;
+    }
+    .nav-next {
+      text-align: left;
+    }
+  }
+
+  // Pagination
+  .pagination {
+    flex-direction: row-reverse;
+  }
+
+  // Post card
+  .post-card {
+    text-align: right;
+  }
+
+  // Header adjustments
+  .site-header {
+    flex-direction: row-reverse;
+  }
+
+  // Language switcher position
+  .language-switcher {
+    flex-direction: row-reverse;
+  }
+
+  // Form elements
+  input,
+  textarea,
+  select {
+    text-align: right;
+  }
+
+  // Lists
+  ul, ol {
+    padding-left: 0;
+    padding-right: 1.5em;
+  }
+
+  // Blockquotes
+  blockquote {
+    border-left: none;
+    border-right: 4px solid;
+    padding-left: 0;
+    padding-right: 1em;
+  }
+}
