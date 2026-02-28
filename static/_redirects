@@ -1,0 +1,9 @@
+# Redirects for deleted pages - prevent 404s in Google Search Console
+/contact          /about    301
+/samples          /blog     301
+
+# Redirects for deleted blog posts (old starter content)
+/desk-for-minimalists      /blog    301
+/my-pretty-white-shoes     /blog    301
+/paper-boat                /blog    301
+/test-post                 /blog    301

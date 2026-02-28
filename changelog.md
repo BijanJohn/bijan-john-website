@@ -15,6 +15,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.3.3] - 2026-02-28
+### Fixed
+- Fixed broken /contact link on 404 page (page was deleted, now links to /blog)
+- Added Netlify _redirects for deleted pages (/contact, /samples, old starter posts) to resolve Google Search Console 404 errors
+- Added robots.txt with sitemap reference for better SEO crawling
+- Removed stale contact page definition from Netlify CMS config
+- Removed orphaned template files (samples.js, contact-page.js.bak)
+- Removed duplicate gatsby-plugin-netlify entry in gatsby-config.js
+- Fixed typos on 404 page ("wondered" → "wandered", "unknow" → "unknown")
+
 ## [2.3.2] - 2025-10-23
 ### Changed 
 - Moved images into sub dir, updated change log
