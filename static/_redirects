@@ -2,7 +2,8 @@
 /contact          /about    301
 /samples          /blog     301
 
-# Redirects for deleted blog posts (old starter content)
+# Redirects for deleted blog posts
+/renew-or-boycott          /blog    301
 /desk-for-minimalists      /blog    301
 /my-pretty-white-shoes     /blog    301
 /paper-boat                /blog    301
