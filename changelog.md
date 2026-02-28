@@ -18,8 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.3.3] - 2026-02-28
 ### Fixed
 - Fixed broken /contact link on 404 page (page was deleted, now links to /blog)
-- Added Netlify _redirects for deleted pages (/contact, /samples, old starter posts) to resolve Google Search Console 404 errors
+- Added Netlify _redirects for deleted pages (/contact, /samples, /renew-or-boycott, old starter posts) to resolve Google Search Console 404 errors
 - Added robots.txt with sitemap reference for better SEO crawling
+- Added canonical URL tags to SEO component to help Google index pages
+- Fixed malformed bijantech.com link in about.md (was relative, causing /about/bijantech.com 404s)
+- Fixed typo "principle" → "principal" in about page
 - Removed stale contact page definition from Netlify CMS config
 - Removed orphaned template files (samples.js, contact-page.js.bak)
 - Removed duplicate gatsby-plugin-netlify entry in gatsby-config.js

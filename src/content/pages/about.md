@@ -16,4 +16,4 @@ He has been living in Bali, Indonesia since August of 2025.
 
 You can reach him via email at bijan@bijanrahnamai.com<br>
 
-He works as a principle engineer and can find his consulting services at [bijantech.com](bijantech.com)
+He works as a principal engineer and can find his consulting services at [bijantech.com](https://bijantech.com)
